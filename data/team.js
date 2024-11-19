@@ -1,42 +1,70 @@
 export const teamMembers = [
   {
-    name: "Thomas Johnson",
-    role: "Developer, co-founder",
-    image: "/assets/images/team/team-1.jpg",
+    name: "Thiago Costa",
+    role: "Programador | Gestor de trafego | Co-fundador | Designer",
+    image: "/assets/images/team/thiago.jpg",
     socials: [
-      { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
-      { platform: "Twitter", icon: "fa-twitter", url: "#" },
-      { platform: "Pinterest", icon: "fa-pinterest-p", url: "#" },
+      {
+        platform: "Instagram",
+        icon: "fa-instagram",
+        url: "https://www.instagram.com/thiago_rodc",
+      },
+      {
+        platform: "Linkedin",
+        icon: "fa-linkedin",
+        url: "https://www.linkedin.com/in/rodcdev/",
+      },
     ],
   },
   {
-    name: "Emma Johnson",
-    role: "UI/UX Designer, co-founder",
-    image: "/assets/images/team/team-2.jpg",
+    name: "Diego Alvarez",
+    role: "Designer | Ilustrador | Gestor de trafego | Co-fundador",
+    image: "/assets/images/team/diego2.jpg",
     socials: [
-      { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
-      { platform: "Twitter", icon: "fa-twitter", url: "#" },
-      { platform: "Pinterest", icon: "fa-pinterest-p", url: "#" },
+      {
+        platform: "Instagram",
+        icon: "fa-instagram",
+        url: "https://www.instagram.com/d.alvarezz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+      },
+      {
+        platform: "Linkedin",
+        icon: "fa-linkedin",
+        url: "https://www.linkedin.com/in/diego-alvarez-dominguez-497863187/",
+      },
     ],
   },
   {
-    name: "Marta Laning",
-    role: "Web developer",
-    image: "/assets/images/team/team-4.jpg",
+    name: "Gustavo Ribeiro",
+    role: "Executivo comercial | Gestão de projetos | Social Media | Ads | Marketing",
+    image: "/assets/images/team/gustavo.jpg",
     socials: [
-      { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
-      { platform: "Twitter", icon: "fa-twitter", url: "#" },
-      { platform: "Pinterest", icon: "fa-pinterest-p", url: "#" },
+      {
+        platform: "Instagram",
+        icon: "fa-instagram",
+        url: "https://www.instagram.com/gutoribeiroo/",
+      },
+      {
+        platform: "Linkedin",
+        icon: "fa-linkedin",
+        url: "https://www.linkedin.com/in/gustavo-ribeiro-nunes-cordeiro-2058a0171/",
+      },
     ],
   },
   {
-    name: "Marta Laning",
-    role: "Art director, designer",
-    image: "/assets/images/team/team-3.jpg",
+    name: "Kaiky Alvarez",
+    role: "Editor de video | Copywriter",
+    image: "/assets/images/team/kaiky.jpg",
     socials: [
-      { platform: "Facebook", icon: "fa-facebook-f", url: "#" },
-      { platform: "Twitter", icon: "fa-twitter", url: "#" },
-      { platform: "Pinterest", icon: "fa-pinterest-p", url: "#" },
+      {
+        platform: "Instagram",
+        icon: "fa-instagram",
+        url: "https://www.instagram.com/kaiky.alvarez?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+      },
+      {
+        platform: "Linkedin",
+        icon: "fa-linkedin",
+        url: "https://www.linkedin.com/in/kaiky-nicolas-alvarez-869a56314/",
+      },
     ],
   },
 ];

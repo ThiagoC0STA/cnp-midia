@@ -37,9 +37,9 @@ export default function Home1({ onePage = false, dark = false }) {
         <div className="container position-relative">
           <div className="row mb-60 mb-xs-30">
             <div className="col-md-6">
-              <h2 className="section-caption mb-xs-10">Our Story</h2>
+              <h2 className="section-caption mb-xs-10">Sobre Nós</h2>
               <h3 className="section-title mb-0">
-                <AnimatedText text="Better way to create stanning layouts." />
+                <AnimatedText text="Impulsionamos marcas para o próximo nível no digital." />
               </h3>
             </div>
             <div className="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
@@ -66,7 +66,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   data-link-animate="y"
                 >
                   <span className="link-strong link-strong-unhovered">
-                    Learn more about us{" "}
+                    Saiba mais sobre nós{" "}
                     <i
                       className="mi-arrow-right size-18"
                       aria-hidden="true"
@@ -76,7 +76,7 @@ export default function Home1({ onePage = false, dark = false }) {
                     className="link-strong link-strong-hovered"
                     aria-hidden="true"
                   >
-                    Learn more about us{" "}
+                    Saiba mais sobre nós{" "}
                     <i
                       className="mi-arrow-right size-18"
                       aria-hidden="true"
@@ -90,7 +90,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   data-link-animate="y"
                 >
                   <span className="link-strong link-strong-unhovered">
-                    Learn more about us{" "}
+                    Saiba mais sobre nós{" "}
                     <i
                       className="mi-arrow-right size-18"
                       aria-hidden="true"
@@ -100,7 +100,7 @@ export default function Home1({ onePage = false, dark = false }) {
                     className="link-strong link-strong-hovered"
                     aria-hidden="true"
                   >
-                    Learn more about us{" "}
+                    Saiba mais sobre nós{" "}
                     <i
                       className="mi-arrow-right size-18"
                       aria-hidden="true"
@@ -113,6 +113,7 @@ export default function Home1({ onePage = false, dark = false }) {
           <About />
         </div>
       </section>
+      
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-2 light-content" : "bg-gray-light-1 "

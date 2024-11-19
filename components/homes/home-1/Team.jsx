@@ -15,12 +15,12 @@ export default function Team() {
               ”
             </div>
             <p>
-              We are strong team who brings innovative ideas into production.
+              Nós temos uma equipe dedicada que transforma ideias em resultados.
             </p>
             <footer>
               <div className="section-line mb-10" />
-              Thomas Johnson
-              <div className="small">Developer, Co-founder</div>
+              Thiago Costa
+              <div className="small">Programador, co-fundador</div>
             </footer>
           </blockquote>
         </div>
@@ -33,7 +33,7 @@ export default function Team() {
               slidesPerView={2}
               breakpoints={{
                 500: {
-                  slidesPerView: 2, // When window width is <= 480px
+                  slidesPerView: 2,
                 },
                 0: {
                   slidesPerView: 1,
@@ -62,7 +62,7 @@ export default function Team() {
                           width={600}
                           height={800}
                           src={member.image}
-                          className="wow scaleOutIn"
+                          className="wow scaleOutIn team-photo"
                           alt="Image Description"
                         />
                         <div className="team-item-detail">

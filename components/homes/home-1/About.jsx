@@ -36,19 +36,18 @@ export default function About() {
         </div>
       </div>
       <div className="col-lg-6 col-xl-5 offset-xl-1">
-        <h4 className="h5">Our Mission</h4>
+        <h4 className="h5">Nossa Missão</h4>
         <p className="text-gray">
-          We believe that a website is the foundation of a successful online
-          presence, and our goal is to help businesses establish a&nbsp;strong
-          digital presence. Our process begins with understanding your business
-          goals.
+          Acreditamos que uma presença digital forte é a base do sucesso de
+          qualquer negócio. Nossa missão é ajudar marcas a se destacarem no
+          ambiente online com estratégias personalizadas e resultados concretos.
         </p>
-        <h4 className="h5">Our Vision</h4>
+        <h4 className="h5">Nossa Visão</h4>
         <p className="text-gray">
-          We then use this information to create a custom website that not only
-          reflects your brand but also helps you achieve your business
-          objectives. From responsive design to intuitive navigation, we focus
-          on every detail.
+          Desenvolvemos soluções únicas que conectam sua marca ao público certo.
+          Focamos em cada detalhe, desde a criação de conteúdo envolvente até
+          estratégias que geram resultados reais e fortalecem sua autoridade
+          digital.
         </p>
       </div>
     </div>

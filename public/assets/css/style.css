@@ -11165,6 +11165,11 @@ a.blog-item-more:hover {
   width: 100%;
 }
 
+.team-photo {
+  height: 400px !important;
+  object-fit: cover;
+}
+
 /* Team carousel */
 .team-carousel.owl-carousel {
   width: calc(100% + 30px);
