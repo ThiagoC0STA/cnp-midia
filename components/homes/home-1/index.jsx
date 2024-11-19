@@ -143,14 +143,13 @@ export default function Home1({ onePage = false, dark = false }) {
           <div className="row">
             <div className="col-lg-4 mb-md-60 mb-xs-50">
               <h2 className="section-title mb-20 wow fadeInUp">
-                Check recent achievements.
+                Confira nossos resultados.
               </h2>
               <p
                 className="section-descr mb-40 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                We provide the effective ideas that grow businesses of our
-                clients.
+                Criamos conteúdo que engaja e converte seu público nas redes sociais.
               </p>
               <div className="local-scroll wow fadeInUp" data-wow-delay="0.2s">
                 {onePage ? (
@@ -158,14 +157,14 @@ export default function Home1({ onePage = false, dark = false }) {
                     href="#contact"
                     className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                   >
-                    <span>Request Price</span>
+                    <span>Solicitar Orçamento</span>
                   </a>
                 ) : (
                   <Link
                     href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
                     className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                   >
-                    <span>Request Price</span>
+                    <span>Solicitar Orçamento</span>
                   </Link>
                 )}
               </div>
