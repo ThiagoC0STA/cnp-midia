@@ -9,9 +9,6 @@ import LanguageSelect from "./components/LanguageSelect";
 export default function Header1Multipage({ links }) {
   return (
     <div className="main-nav-sub full-wrapper">
-      {/* Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
-              If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
-              image size for support of retina screens. See details in the template documentation. *) */}
       <div className="nav-logo-wrap local-scroll">
         <Link href={`/`} className="logo">
           <Image
@@ -30,6 +27,7 @@ export default function Header1Multipage({ links }) {
           />
         </Link>
       </div>
+
       {/* Mobile Menu Button */}
       <div
         onClick={toggleMobileMenu}
@@ -40,17 +38,13 @@ export default function Header1Multipage({ links }) {
         <i className="mobile-nav-icon" />
         <span className="visually-hidden">Menu</span>
       </div>
-      {/* Main Menu */}
+
       <div className="inner-nav desktop-nav">
         <ul className="clearlist local-scroll">
-          {/* Item With Sub */}
           <Nav2 links={links} />
-          {/* End Item With Sub */}
         </ul>
         <ul className="items-end clearlist">
-          {/* Languages */}
-          <LanguageSelect />
-          {/* End Languages */}
+          {/* <LanguageSelect /> */}
           <li>
             <Link href="/main-pages-contact-1" className="opacity-1 no-hover">
               <span className="link-hover-anim underline" data-link-animate="y">
@@ -68,7 +62,6 @@ export default function Header1Multipage({ links }) {
           </li>
         </ul>
       </div>
-      {/* End Main Menu */}
     </div>
   );
 }

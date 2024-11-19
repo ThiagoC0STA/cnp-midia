@@ -1,10 +1,9 @@
-import Header1 from "@/components/headers/Header1";
 import Home1 from "@/components/homes/home-1";
 import dynamic from "next/dynamic";
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
   {
-    ssr: false, // Disable server-side rendering
+    ssr: false,
   }
 );
 import Hero1 from "@/components/homes/home-1/heros/Hero1";
@@ -12,11 +11,11 @@ import Header1Multipage from "@/components/headers/Header1Multipage";
 import { menuItemsDark } from "@/data/menu";
 import Footer1 from "@/components/footers/Footer1";
 export const metadata = {
-  title:
-    "Home 1 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "CNP Mídia || Agência Especializada em Social Media",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "A CNP Mídia é uma agência de social media focada em construir autoridade digital para marcas e empresas, oferecendo estratégias personalizadas e gestão de redes sociais.",
 };
+
 export default function Home1MainDemoMultiPageDark() {
   return (
     <>

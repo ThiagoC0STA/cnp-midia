@@ -25,11 +25,11 @@ export default function Hero1() {
                   className="section-caption mb-30 mb-xs-10 wow fadeInUp"
                   data-wow-duration="1.2s"
                 >
-                  Resonance Creative Studio
+                  CNP Mídia - Agência Digital
                 </h2>
                 <h1 className="hs-title-1 mb-30">
                   <AnimatedText
-                    text={"Grow your business with a new website."}
+                    text={"Impulsione sua marca nas redes sociais."}
                   />
                 </h1>
 
@@ -38,8 +38,7 @@ export default function Hero1() {
                   data-wow-delay="0.6s"
                   data-wow-duration="1.2s"
                 >
-                  Resonance is a full-service creative studio creating beautiful
-                  digital experiences and products.
+                  Somos uma agência especializada em social media, criando estratégias personalizadas para construir autoridade digital para sua marca.
                 </p>
                 <div
                   className="local-scroll mt-n10 wow fadeInUp wch-unset"
@@ -51,14 +50,14 @@ export default function Hero1() {
                     href="#about"
                     className="btn btn-mod btn-large btn-round btn-hover-anim align-middle me-2 me-sm-5 mt-10"
                   >
-                    <span>Discover now</span>
+                    <span>Descubra mais</span>
                   </a>
                   <a
                     onClick={() => setOpen(true)}
                     className="link-hover-anim align-middle lightbox mfp-iframe mt-10"
                     data-link-animate="y"
                   >
-                    <i className="icon-play size-13 me-1" /> How it works?
+                    <i className="icon-play size-13 me-1" /> Como funciona?
                   </a>
                 </div>
               </div>
@@ -134,7 +133,7 @@ export default function Hero1() {
               <div className="scroll-down-1-icon">
                 <i className="mi-arrow-down" />
               </div>
-              <div className="scroll-down-1-text">Scroll Down</div>
+              <div className="scroll-down-1-text">Rolar para baixo</div>
             </a>
           </div>
         </div>
