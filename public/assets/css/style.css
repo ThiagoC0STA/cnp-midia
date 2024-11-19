@@ -5845,7 +5845,7 @@ a.logo:hover {
 .services-tabs {
   display: block;
   margin: 0;
-  padding: 0 calc(40px + var(--services-text-overlap)) 0 0;
+  padding: 0 calc(20px - var(--services-text-overlap)) 0 0;
   border: none;
   font-size: 40px;
   font-weight: 500;
@@ -5854,7 +5854,7 @@ a.logo:hover {
 }
 .services-tabs > li {
   display: block;
-  margin-bottom: 0.175em;
+  margin-bottom: 0.3em;
 }
 .services-tabs > li > a {
   position: relative;
@@ -5864,7 +5864,7 @@ a.logo:hover {
   opacity: 0.27;
   transition: var(--transition-default);
 }
-.services-tabs > li > a:before {
+/* .services-tabs > li > a:before {
   content: "";
   display: block;
   position: absolute;
@@ -5876,7 +5876,7 @@ a.logo:hover {
   transform-origin: left center;
   transform: scaleX(0);
   transition: all 0.5s cubic-bezier(0, 0, 0.58, 1);
-}
+} */
 .services-tabs > li a:hover {
   color: unset;
   opacity: 0.5;
@@ -5935,7 +5935,7 @@ img.services-image {
 .services-text {
   position: absolute;
   bottom: 60px;
-  left: calc(-1 * var(--services-text-overlap));
+  left: calc(-0.3 * var(--services-text-overlap));
   max-width: 410px;
   z-index: 1;
 }

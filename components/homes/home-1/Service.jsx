@@ -7,9 +7,9 @@ export default function Service() {
     <div className="container position-relative">
       <div className="row">
         <div className="col-lg-6 mb-md-60 mb-sm-30">
-          <h2 className="section-caption mb-xs-10">Our Services</h2>
+          <h2 className="section-caption mb-xs-10">Nossos Serviços</h2>
           <h3 className="section-title mb-30">
-            <AnimatedText text="We provide the best development solutions." />
+            <AnimatedText text="Oferecemos as melhores soluções em marketing." />
           </h3>
           <div className="row">
             <div className="col-lg-10">
@@ -17,8 +17,8 @@ export default function Service() {
                 className="section-descr mb-50 mb-sm-30 wow fadeInUp"
                 data-wow-delay="0.4s"
               >
-                The power of design help us to solve complex problems and
-                cultivate business solutions.
+                O poder da criatividade nos ajuda a resolver desafios complexos
+                e a impulsionar resultados.
               </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function Service() {
                 aria-selected="true"
                 data-bs-toggle="tab"
               >
-                Brand Strategy <span className="number">01</span>
+                Gestão de Redes Sociais
               </a>
             </li>
             <li role="presentation">
@@ -47,7 +47,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Art Direction <span className="number">02</span>
+                Criação de Conteúdo
               </a>
             </li>
             <li role="presentation">
@@ -58,7 +58,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Creative Design <span className="number">03</span>
+                Tráfego Pago
               </a>
             </li>
             <li role="presentation">
@@ -69,7 +69,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Development <span className="number">04</span>
+                Copywriting
               </a>
             </li>
             <li role="presentation">
@@ -80,7 +80,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Photography <span className="number">05</span>
+                Análise de Métricas
               </a>
             </li>
             <li role="presentation">
@@ -91,11 +91,12 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Marketing <span className="number">06</span>
+                Estratégia Digital
               </a>
             </li>
           </ul>
         </div>
+
         <div
           className="col-lg-6 d-flex wow fadeInLeft"
           data-wow-delay="0.55s"
@@ -110,11 +111,11 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Brand Strategy</h4>
+                  <h4 className="services-title">Gestão de Redes Sociais</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Gerenciamos suas redes sociais de forma estratégica e profissional. 
+                    Criamos e publicamos conteúdo relevante, interagimos com seu público 
+                    e construímos uma presença digital forte e consistente para sua marca.
                   </p>
                 </div>
               </div>
@@ -135,11 +136,11 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Art Direction</h4>
+                  <h4 className="services-title">Criação de Conteúdo</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Desenvolvemos conteúdo estratégico e criativo que conecta sua marca 
+                    ao público-alvo. Nosso foco é criar materiais relevantes e 
+                    envolventes que geram engajamento e fortalecem seu posicionamento digital.
                   </p>
                 </div>
               </div>
@@ -160,11 +161,11 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Creative Design</h4>
+                  <h4 className="services-title">Tráfego Pago</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Potencializamos seus resultados através de campanhas 
+                    estratégicas de mídia paga. Investimos de forma inteligente 
+                    para maximizar seu ROI e alcançar o público certo no momento ideal.
                   </p>
                 </div>
               </div>
@@ -185,11 +186,11 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Development</h4>
+                  <h4 className="services-title">Copywriting</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Criamos textos persuasivos e envolventes que convertem leitores em clientes. 
+                    Nossa escrita estratégica comunica o valor da sua marca e gera conexão 
+                    emocional com seu público-alvo.
                   </p>
                 </div>
               </div>
@@ -210,11 +211,11 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Photography</h4>
+                  <h4 className="services-title">Análise de Métricas</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Transformamos dados em insights acionáveis para sua empresa. 
+                    Nossa análise detalhada de métricas permite otimizar estratégias, 
+                    identificar oportunidades e tomar decisões baseadas em resultados reais.
                   </p>
                 </div>
               </div>
@@ -235,11 +236,11 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Marketing</h4>
+                  <h4 className="services-title">Estratégia Digital</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Desenvolvemos estratégias digitais personalizadas e eficazes para sua marca. 
+                    Combinamos planejamento, análise de mercado e tendências para criar uma 
+                    presença digital que gera resultados mensuráveis e crescimento sustentável.
                   </p>
                 </div>
               </div>

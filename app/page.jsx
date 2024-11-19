@@ -11,7 +11,7 @@ import Header1Multipage from "@/components/headers/Header1Multipage";
 import { menuItemsDark } from "@/data/menu";
 import Footer1 from "@/components/footers/Footer1";
 export const metadata = {
-  title: "CNP Mídia || Agência Especializada em Social Media",
+  title: "CNP Mídia | Agência Especializada em Social Media",
   description:
     "A CNP Mídia é uma agência de social media focada em construir autoridade digital para marcas e empresas, oferecendo estratégias personalizadas e gestão de redes sociais.",
 };
