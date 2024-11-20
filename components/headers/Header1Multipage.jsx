@@ -28,7 +28,6 @@ export default function Header1Multipage({ links }) {
         </Link>
       </div>
 
-      {/* Mobile Menu Button */}
       <div
         onClick={toggleMobileMenu}
         className="mobile-nav"
@@ -46,16 +45,16 @@ export default function Header1Multipage({ links }) {
         <ul className="items-end clearlist">
           {/* <LanguageSelect /> */}
           <li>
-            <Link href="/main-pages-contact-1" className="opacity-1 no-hover">
+            <Link href="/contact" className="opacity-1 no-hover">
               <span className="link-hover-anim underline" data-link-animate="y">
                 <span className="link-strong link-strong-unhovered">
-                  Let's work together
+                  Vamos trabalhar juntos
                 </span>
                 <span
                   className="link-strong link-strong-hovered"
                   aria-hidden="true"
                 >
-                  Let's work together
+                  Vamos trabalhar juntos
                 </span>
               </span>
             </Link>

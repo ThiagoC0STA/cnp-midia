@@ -1,27 +1,27 @@
 export const faqs = [
   {
     id: 1,
-    question: "01. Discussion",
+    question: "01. Análise e Planejamento",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.",
+      "Iniciamos com uma análise detalhada do seu negócio, público-alvo e objetivos. Desenvolvemos um plano estratégico personalizado para suas redes sociais.",
   },
   {
     id: 2,
-    question: "02. Design",
+    question: "02. Criação de Conteúdo",
     answer:
-      "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet dignissim pellentesque felis.",
+      "Nossa equipe criativa desenvolve conteúdos relevantes e envolventes, incluindo textos, imagens e vídeos alinhados com sua identidade visual e objetivos de marketing.",
   },
   {
     id: 3,
-    question: "03. Development",
+    question: "03. Gestão de Redes Sociais",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+      "Gerenciamos suas redes sociais de forma profissional, incluindo publicações, interações com seguidores e monitoramento de métricas para otimizar resultados.",
   },
   {
     id: 4,
-    question: "04. Production",
+    question: "04. Análise e Otimização",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+      "Realizamos análises periódicas de desempenho, ajustando estratégias conforme necessário para garantir o crescimento contínuo da sua presença digital.",
   },
 ];
 

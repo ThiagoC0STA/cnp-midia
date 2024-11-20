@@ -113,7 +113,7 @@ export default function Home1({ onePage = false, dark = false }) {
           <About />
         </div>
       </section>
-      
+
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-2 light-content" : "bg-gray-light-1 "
@@ -149,7 +149,8 @@ export default function Home1({ onePage = false, dark = false }) {
                 className="section-descr mb-40 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-                Criamos conteúdo que engaja e converte seu público nas redes sociais.
+                Criamos conteúdo que engaja e converte seu público nas redes
+                sociais.
               </p>
               <div className="local-scroll wow fadeInUp" data-wow-delay="0.2s">
                 {onePage ? (
@@ -188,7 +189,6 @@ export default function Home1({ onePage = false, dark = false }) {
         }`}
       >
         <div className="container position-relative">
-          {/* Decorative Waves */}
           <div
             className="decoration-3 d-none d-sm-block"
             data-rellax-y=""
@@ -203,12 +203,11 @@ export default function Home1({ onePage = false, dark = false }) {
               alt=""
             />
           </div>
-          {/* End Decorative Waves */}
           <div className="row text-center wow fadeInUp">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
               <p className="section-descr mb-50 mb-sm-30">
-                The power of design help us to solve complex problems and
-                cultivate business solutions.
+                Transformamos ideias em soluções digitais inovadoras,
+                impulsionando o sucesso do seu negócio.
               </p>
               <div className="local-scroll">
                 {onePage ? (
@@ -216,14 +215,14 @@ export default function Home1({ onePage = false, dark = false }) {
                     href="#contact"
                     className="btn btn-mod btn-large btn-round btn-hover-anim"
                   >
-                    <span>Contact us</span>
+                    <span>Entrar em contato</span>
                   </a>
                 ) : (
                   <Link
                     href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
                     className="btn btn-mod btn-large btn-round btn-hover-anim"
                   >
-                    <span>Contact us</span>
+                    <span>Entrar em contato</span>
                   </Link>
                 )}
               </div>
@@ -240,7 +239,6 @@ export default function Home1({ onePage = false, dark = false }) {
       <section
         className={`page-section pt-0 pb-0  ${dark ? "light-content" : ""}`}
       >
-        {" "}
         {dark ? <Testimonials2 /> : <Testimonials />}
       </section>
       <section className={`page-section  ${dark ? " light-content" : ""}`}>
@@ -249,8 +247,7 @@ export default function Home1({ onePage = false, dark = false }) {
       <section
         className="page-section bg-dark bg-dark-alpha-70 light-content"
         style={{
-          backgroundImage:
-            "url(/assets/images/full-width-images/section-bg-4.jpg)",
+          backgroundImage: "url(/assets/images/texture.jpeg)",
         }}
       >
         <Features />
@@ -260,7 +257,6 @@ export default function Home1({ onePage = false, dark = false }) {
       >
         <div className="container position-relative">
           <div className="row">
-            {/* Images */}
             <div className="col-lg-7 d-flex align-items-start mb-md-60 mb-xs-30">
               <div className="call-action-2-images">
                 <div
@@ -308,15 +304,13 @@ export default function Home1({ onePage = false, dark = false }) {
                 </div>
               </div>
             </div>
-            {/* End Images */}
-            {/* Text */}
             <div className="col-lg-5 d-flex align-items-center">
               <div
                 className="wow fadeInUp"
                 data-wow-duration="1.2s"
                 data-wow-offset={255}
               >
-                <h2 className="section-title mb-50 mb-sm-20">How we work?</h2>
+                <h2 className="section-title mb-50 mb-sm-20">Como trabalhamos?</h2>
                 <Faq />
                 <div className="local-scroll">
                   {onePage ? (
@@ -324,20 +318,19 @@ export default function Home1({ onePage = false, dark = false }) {
                       href="#contact"
                       className="btn btn-mod btn-large btn-round btn-hover-anim"
                     >
-                      <span>Start a Project</span>
+                      <span>Inicie um projeto</span>
                     </a>
                   ) : (
                     <Link
                       href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
                       className="btn btn-mod btn-large btn-round btn-hover-anim"
                     >
-                      <span>Start a Project</span>
+                      <span>Inicie um projeto</span>
                     </Link>
                   )}
                 </div>
               </div>
             </div>
-            {/* End Text */}
           </div>
         </div>
       </section>
@@ -349,7 +342,7 @@ export default function Home1({ onePage = false, dark = false }) {
         <Promo />{" "}
       </section>
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
-      <section
+      {/* <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
         }`}
@@ -358,10 +351,10 @@ export default function Home1({ onePage = false, dark = false }) {
         <div className="container position-relative">
           <div className="row mb-60 mb-xs-30">
             <div className="col-md-6">
-              <h2 className="section-caption mb-xs-10">Our Blog</h2>
+              <h2 className="section-caption mb-xs-10">Nosso Blog</h2>
               <h3 className="section-title mb-0">
                 <span className="wow charsAnimIn" data-splitting="chars">
-                  The latest news
+                  Últimas Notícias
                 </span>
               </h3>
             </div>
@@ -371,17 +364,14 @@ export default function Home1({ onePage = false, dark = false }) {
                 className="link-hover-anim underline align-middle"
                 data-link-animate="y"
               >
-                Read more in our blog <i className="mi-arrow-right size-18" />
+                Leia mais no nosso blog <i className="mi-arrow-right size-18" />
               </Link>
             </div>
           </div>
           <Blog />
-          {/* Blog Posts Grid */}
-
-          {/* End Blog Posts Grid */}
         </div>
-      </section>
-      <section
+      </section> */}
+      {/* <section
         className="page-section bg-dark-1 bg-dark-alpha-90 light-content"
         style={{
           backgroundImage:
@@ -389,7 +379,7 @@ export default function Home1({ onePage = false, dark = false }) {
         }}
       >
         <NewsLetter />
-      </section>
+      </section> */}
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""

@@ -7,7 +7,7 @@ export default function Blog() {
   return (
     <div className="row mt-n50">
       {/* Post Item */}
-      {blogs1.map((elm, i) => (
+      {blogs1.slice(0,3).map((elm, i) => (
         <div
           key={i}
           className="post-prev col-md-6 col-lg-4 mt-50 wow fadeInLeft"
@@ -32,18 +32,6 @@ export default function Blog() {
             <div className="post-prev-text">{elm.text}</div>
             <div className="post-prev-info clearfix">
               <div className="float-start">
-                <a href="#">
-                  <Image
-                    className="post-prev-author-img"
-                    width={30}
-                    height={30}
-                    src={elm.authorImg}
-                    alt="Image Description"
-                  />
-                </a>
-                <a href="#">{elm.authorName}</a>
-              </div>
-              <div className="float-end">
                 <a href="#">{elm.date}</a>
               </div>
             </div>

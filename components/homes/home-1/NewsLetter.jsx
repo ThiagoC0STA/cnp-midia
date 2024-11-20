@@ -6,7 +6,7 @@ export default function NewsLetter() {
       <div className="row">
         <div className="col-md-8 offset-md-2 col-xl-6 offset-xl-3 wow fadeInUp">
           <h2 className="section-title-small text-center mb-40">
-            Stay informed with our newsletter.
+            Fique por dentro das nossas novidades
           </h2>
           <form
             onSubmit={(e) => e.preventDefault()}
@@ -15,10 +15,10 @@ export default function NewsLetter() {
           >
             <div className="d-sm-flex justify-content-between mb-20">
               <label htmlFor="newsletter-email" className="visually-hidden">
-                Your email
+                Seu email
               </label>
               <input
-                placeholder="Enter your email"
+                placeholder="Digite seu email"
                 className="newsletter-field input-lg round"
                 id="newsletter-email"
                 name="newsletter-email"
@@ -32,13 +32,20 @@ export default function NewsLetter() {
                 aria-controls="subscribe-result"
                 className="newsletter-button btn btn-mod btn-w btn-large btn-round btn-hover-anim"
               >
-                <span>Subscribe Now</span>
+                <span>Inscrever-se</span>
               </button>
             </div>
             <div className="form-tip">
-              <i className="icon-info size-16" /> By sending the form you agree
-              to the <a href="#">Terms &amp; Conditions</a> and{" "}
-              <a href="#">Privacy Policy</a>.
+              <i className="icon-info size-16" /> Ao enviar o formulário você
+              concorda com os{" "}
+              <a target="_blank" href="/terms">
+                Termos e Condições
+              </a>{" "}
+              e{" "}
+              <a target="_blank" href="/policy">
+                Política de Privacidade
+              </a>
+              .
             </div>
             <div
               id="subscribe-result"

@@ -12,12 +12,12 @@ export default function Promo() {
         data-rellax-speed="-0.5"
         data-rellax-percentage=".7"
       >
-        <Image
+        {/* <Image
           width="103"
           height="223"
           src="/assets/images/decoration-2.svg"
           alt=""
-        />
+        /> */}
       </div>
       {/* End Decorative Dots */}
       <div className="row">
@@ -31,7 +31,7 @@ export default function Promo() {
             <div className="row">
               <div className="col-lg-10">
                 <h2 className="section-title mb-60 mb-sm-30">
-                  Awesome Template With Clean Design
+                  Nossos Diferenciais
                 </h2>
               </div>
             </div>

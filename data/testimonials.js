@@ -1,21 +1,39 @@
 export const testimonials = [
   {
-    quote: `This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful!`,
-    author: "Adam Peterson",
-    role: "Business Owner",
-    image: "/assets/images/ts1-user.jpg",
+    quote: `A CNP Midia transformou completamente nossa presença nas redes sociais. O engajamento aumentou significativamente e nossas vendas cresceram mais de 40% em apenas 6 meses de trabalho.`,
+    author: "Carlos Silva",
+    role: "Diretor de Marketing",
+    image: "/assets/images/testimonials/men.png",
   },
   {
-    quote: `This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful!`,
-    author: "Adam Peterson",
-    role: "Business Owner",
-    image: "/assets/images/ts1-user.jpg",
+    quote: `Excelente trabalho! A equipe é super profissional e entregou resultados além das nossas expectativas. O conteúdo produzido é criativo e totalmente alinhado com nossa marca.`,
+    author: "Ana Paula Santos",
+    role: "Proprietária de rede de perfumarias",
+    image: "/assets/images/testimonials/women.png",
   },
   {
-    quote: `This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful!`,
-    author: "Adam Peterson",
-    role: "Business Owner",
-    image: "/assets/images/ts1-user.jpg",
+    quote: `A gestão das nossas redes sociais melhorou drasticamente desde que começamos a trabalhar com a CNP Midia. Eles realmente entendem nosso negócio e nosso público.`,
+    author: "Roberto Oliveira",
+    role: "CEO de grande varejista",
+    image: "/assets/images/testimonials/men2.png",
+  },
+  {
+    quote: `Estamos muito satisfeitos com as estratégias de marketing digital implementadas pela CNP Midia. Nossa base de seguidores cresceu organicamente e a taxa de conversão aumentou consideravelmente.`,
+    author: "Mariana Costa",
+    role: "Gerente Comercial de marketplace",
+    image: "/assets/images/testimonials/women2.jpeg",
+  },
+  {
+    quote: `O profissionalismo e dedicação da equipe são impressionantes. Eles não só gerenciam nossas redes sociais, mas também nos ajudam a desenvolver estratégias para crescimento contínuo.`,
+    author: "Pedro Mendes",
+    role: "Empresário do varejo de móveis e eletrodomésticos",
+    image: "/assets/images/testimonials/men3.jpg",
+  },
+  {
+    quote: `A parceria com a CNP Midia foi um divisor de águas para nossa empresa. O retorno sobre o investimento é excelente e a comunicação com a equipe é sempre clara e eficiente.`,
+    author: "Luciana Ferreira",
+    role: "Diretora Executiva de rede varejista",
+    image: "/assets/images/testimonials/women3.jpeg",
   },
 ];
 

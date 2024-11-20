@@ -3,25 +3,25 @@ export const numberItems = [
     id: 1,
     delay: "0.4s",
     title: "130+",
-    description: "Satisfied Customers",
+    description: "Projetos concluídos com sucesso",
   },
   {
     id: 2,
     delay: "0.6s",
     title: "+12",
-    description: "Global reach with clients from countries worldwide.",
+    description: "Clientes em todo o mundo",
   },
   {
     id: 3,
     delay: "0.8s",
     title: "9+",
-    description: "Years Experience",
+    description: "Anos de experiência",
   },
   {
     id: 4,
     delay: "1s",
     title: "10+",
-    description: "Experienced Members",
+    description: "Membros experientes",
   },
 ];
 export const numberItems2 = [

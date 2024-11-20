@@ -12,9 +12,9 @@ export default function Testimonials2() {
             <div className="row">
               <div className="col-md-10 offset-md-1 text-center">
                 <h2 className="section-title mb-70 mb-sm-40">
-                  Resonance is trusted by
-                  <span className="mark-decoration-1">10,000+</span>
-                  customers.
+                  A CNP Midia é a escolha de
+                  <span className="mark-decoration-1">130+</span> clientes
+                  satisfeitos.
                 </h2>
               </div>
             </div>
@@ -51,6 +51,11 @@ export default function Testimonials2() {
                               className="rounded-circle"
                               width={44}
                               height={44}
+                              style={{
+                                objectFit: "cover",
+                                width: "44px",
+                                height: "44px",
+                              }}
                               src={testimonial.image}
                               alt="Image description is here"
                             />
@@ -75,11 +80,11 @@ export default function Testimonials2() {
                   </div> */}
                   <div className="owl-buttons">
                     <div className="owl-prev snbp2" role="button" tabIndex="0">
-                      <span className="visually-hidden">Previous Slide</span>
+                      <span className="visually-hidden">Slide Anterior</span>
                       <i className="mi-arrow-left" aria-hidden="true"></i>
                     </div>
                     <div className="owl-next snbn2" role="button" tabIndex="0">
-                      <span className="visually-hidden">Next Slide</span>
+                      <span className="visually-hidden">Slide Próximo</span>
                       <i className="mi-arrow-right" aria-hidden="true"></i>
                     </div>
                   </div>

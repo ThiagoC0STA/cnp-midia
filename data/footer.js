@@ -1,14 +1,11 @@
 export const footerLinks = [
-  { name: "Privacy Policy", path: "#" },
-  { name: "Terms & Conditions", path: "#" },
-  { name: "Presskit", path: "#" },
+  { name: "Política de Privacidade.", path: "/policy" },
+  { name: "Termos e Condições.", path: "/terms" },
 ];
 
 export const footerLinks2 = [
-  { text: "Privacy Policy", href: "#" },
-  { text: "Terms & Conditions", href: "#" },
-  { text: "Presskit", href: "#" },
-  { text: "Credits", href: "#" },
+  { text: "Política de Privacidade.", href: "/policy" },
+  { text: "Termos e Condições.", href: "/terms" },
 ];
 
 export const socialLinks = [
@@ -37,21 +34,11 @@ export const socialMediaLinks = [
     iconClass: "fa-facebook-f",
     name: "Facebook",
   },
-  { href: "#", title: "Skype", iconClass: "fa-skype", name: "Skype" },
-  {
-    href: "#",
-    title: "Pinterest",
-    iconClass: "fa-pinterest",
-    name: "Pinterest",
-  },
-  { href: "#", title: "Behance", iconClass: "fa-behance", name: "Behance" },
-  { href: "#", title: "Dribbble", iconClass: "fa-dribbble", name: "Dribbble" },
 ];
 
 export const navigationLinks = [
-  { href: "#about", text: "About" },
-  { href: "#services", text: "Services" },
-  { href: "#portfolio", text: "Portfolio" },
-  { href: "#blog", text: "Blog" },
-  { href: "#contact", text: "Contact" },
+  { href: "/about", text: "Sobre" },
+  { href: "/services", text: "Serviços" },
+  { href: "/portfolio", text: "Portfólio" },
+  { href: "/contact", text: "Contato" },
 ];

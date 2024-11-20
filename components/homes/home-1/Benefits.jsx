@@ -8,8 +8,10 @@ export default function Benefits() {
       <div className="row">
         {/* Text */}
         <div className="col-md-12 col-lg-3 mb-md-50">
-          <h2 className="section-caption mb-xs-10">Primary Benefits</h2>
-          <h3 className="section-title-small mb-40">Why choose Resonance?</h3>
+          <h2 className="section-caption mb-xs-10">Benefícios principais</h2>
+          <h3 className="section-title-small mb-40">
+            Por que escolher a CNP Midia?
+          </h3>
           <div className="section-line" />
         </div>
         {/* End Text */}

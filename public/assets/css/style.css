@@ -772,6 +772,7 @@ body {
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.67;
+  background-color: var(--color-dark-2);
 }
 a {
   color: var(--color-dark-1);

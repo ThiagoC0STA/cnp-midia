@@ -6,7 +6,7 @@ export default function Brands2() {
       <div className="row">
         <div className="col-md-8 offset-md-2 text-center">
           <h2 className="section-title-tiny mb-30">
-            Trusted by Leading Companies
+            Empresas que confiam em nós
           </h2>
 
           <div className="logo-grid">
