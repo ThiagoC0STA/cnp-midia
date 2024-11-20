@@ -24,11 +24,10 @@ import Benefits from "@/components/homes/home-1/Benefits";
 import { menuItemsDark } from "@/data/menu";
 
 export const metadata = {
-  title:
-    "Main About 2 Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-  description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Sobre a CNP Mídia | Agência de Marketing Digital",
+  description: "Conheça a CNP Mídia, uma agência especializada em marketing digital e gestão de redes sociais, focada em resultados e crescimento para sua marca.",
 };
+
 export default function MainAboutPage2Dark() {
   return (
     <>
@@ -58,7 +57,7 @@ export default function MainAboutPage2Dark() {
                               className="wow charsAnimIn"
                               data-splitting="chars"
                             >
-                              <AnimatedText text="Hey! It's Resonance Creative Studio Here." />
+                              <AnimatedText text="Olá! Somos a CNP Mídia." />
                             </span>
                           </h1>
                           <div className="row">
@@ -68,8 +67,8 @@ export default function MainAboutPage2Dark() {
                                 data-wow-delay="0.6s"
                                 data-wow-duration="1.2s"
                               >
-                                We are a full-service creative studio creating
-                                beautiful digital experiences and products.
+                                Somos uma agência especializada em marketing digital, 
+                                criando experiências únicas e resultados expressivos para sua marca.
                               </p>
                             </div>
                           </div>
@@ -84,40 +83,40 @@ export default function MainAboutPage2Dark() {
               <div className="page-section overflow-hidden pt-0 pb-0">
                 <div className="marquee marquee-style-2 no-rotate bg-dark-2">
                   <div className="marquee-track marquee-animation-1">
-                    <div>Based in London</div>
-                    <div>Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
-                    <div aria-hidden="true">Based in London</div>
-                    <div aria-hidden="true">Since 2010</div>
+                    <div>Localizada em Curitiba</div>
+                    <div>Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
+                    <div aria-hidden="true">Localizada em Curitiba</div>
+                    <div aria-hidden="true">Desde 2018</div>
                   </div>
                 </div>
               </div>
@@ -132,7 +131,7 @@ export default function MainAboutPage2Dark() {
                         <div className="call-action-4-image-1">
                           <Image
                             src="/assets/images/demo-strong/section-image-1.jpg"
-                            alt="Image description"
+                            alt="CNP Mídia - Marketing Digital"
                             width={500}
                             height={692}
                             className="wow scaleOutIn"
@@ -142,7 +141,7 @@ export default function MainAboutPage2Dark() {
                         <div className="call-action-4-image-2">
                           <Image
                             src="/assets/images/demo-strong/section-image-2.jpg"
-                            alt="Image description"
+                            alt="CNP Mídia - Gestão de Redes Sociais"
                             width={500}
                             height={692}
                             className="wow scaleOutIn"
@@ -155,26 +154,22 @@ export default function MainAboutPage2Dark() {
 
                     <div className="col-sm-8 col-lg-6 col-xl-4 offset-xl-1 mt-n10">
                       <div className="wow linesAnimIn" data-splitting="lines">
-                        <h3 className="h5">Our Mission</h3>
+                        <h3 className="h5">Nossa Missão</h3>
 
                         <p className="text-gray">
-                          Resonance is an innovative and dynamic full-service
-                          creative studio that is passionate about crafting
-                          exceptional digital experiences and products. We
-                          specialize in branding, design, and engineering, and
-                          we are committed to producing work that not only looks
-                          amazing but also functions seamlessly.
+                          A CNP Mídia é uma agência inovadora e dinâmica especializada em 
+                          marketing digital e gestão de redes sociais. Nossa paixão é criar 
+                          estratégias digitais que transformam marcas e impulsionam negócios. 
+                          Trabalhamos com foco em resultados mensuráveis e crescimento sustentável.
                         </p>
 
-                        <h3 className="h5">Our Vision</h3>
+                        <h3 className="h5">Nossa Visão</h3>
 
                         <p className="text-gray mb-0">
-                          We work closely with our clients to develop websites,
-                          apps, and other digital products that are not only
-                          visually stunning but also intuitive and
-                          user-friendly. We always strive to ensure that our
-                          clients are completely satisfied with the final
-                          product.
+                          Trabalhamos em estreita colaboração com nossos clientes para desenvolver 
+                          estratégias personalizadas, criar conteúdo relevante e gerenciar campanhas 
+                          eficientes. Nosso objetivo é garantir que cada cliente alcance seus objetivos 
+                          de negócio através de uma presença digital forte e autêntica.
                         </p>
                       </div>
                     </div>
@@ -183,7 +178,7 @@ export default function MainAboutPage2Dark() {
                       <div className="overflow-hidden">
                         <Image
                           src="/assets/images/demo-strong/section-image-3.jpg"
-                          alt="Image description"
+                          alt="CNP Mídia - Resultados"
                           width={330}
                           height={894}
                           className="wow scaleOutIn"
@@ -205,14 +200,14 @@ export default function MainAboutPage2Dark() {
                   <div className="row">
                     <div className="col-lg-4 mb-md-60 mb-xs-50">
                       <h2 className="section-title mb-20 wow fadeInUp">
-                        Check recent achievements.
+                        Confira nossos resultados.
                       </h2>
                       <p
                         className="section-descr mb-40 wow fadeInUp"
                         data-wow-delay="0.1s"
                       >
-                        We provide the effective ideas that grow businesses of
-                        our clients.
+                        Desenvolvemos estratégias eficientes que fazem os negócios 
+                        de nossos clientes crescerem.
                       </p>
                       <div
                         className="local-scroll wow fadeInUp"
@@ -222,7 +217,7 @@ export default function MainAboutPage2Dark() {
                           href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
                           className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                         >
-                          <span>Request Price</span>
+                          <span>Solicitar Orçamento</span>
                         </Link>
                       </div>
                     </div>{" "}
@@ -267,7 +262,7 @@ export default function MainAboutPage2Dark() {
                             width={386}
                             height={400}
                             src="/assets/images/promo-3.jpg"
-                            alt="Image Description"
+                            alt="Marketing Digital CNP Mídia"
                             className="wow scaleOutIn"
                             data-wow-duration="1.2s"
                             data-wow-offset={255}
@@ -278,7 +273,7 @@ export default function MainAboutPage2Dark() {
                             width={810}
                             height={512}
                             src="/assets/images/promo-4.jpg"
-                            alt="Image Description"
+                            alt="Gestão de Redes Sociais CNP Mídia"
                             className="wow scaleOutIn"
                             data-wow-duration="1.2s"
                             data-wow-offset={134}
@@ -294,7 +289,7 @@ export default function MainAboutPage2Dark() {
                             width={386}
                             height={500}
                             src="/assets/images/promo-5.jpg"
-                            alt="Image Description"
+                            alt="Estratégias Digitais CNP Mídia"
                             className="wow scaleOutIn"
                             data-wow-duration="1.2s"
                             data-wow-offset={0}
@@ -311,7 +306,7 @@ export default function MainAboutPage2Dark() {
                         data-wow-offset={255}
                       >
                         <h2 className="section-title mb-50 mb-sm-20">
-                          How we work?
+                          Como trabalhamos?
                         </h2>
                         <Faq />
                         <div className="local-scroll">
@@ -319,7 +314,7 @@ export default function MainAboutPage2Dark() {
                             href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
                             className="btn btn-mod btn-large btn-w btn-round btn-hover-anim"
                           >
-                            <span>Start a Project</span>
+                            <span>Iniciar Projeto</span>
                           </Link>
                         </div>
                       </div>

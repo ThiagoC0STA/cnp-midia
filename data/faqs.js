@@ -28,29 +28,30 @@ export const faqs = [
 export const faqDataMain = [
   {
     id: 1,
-    question: "What do you mean by an End Product?",
+    question: "Como a CNP Mídia pode ajudar meu negócio?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula porttitor rutrum. Ut laoreet sodales rutrum. Ut eget tristique nibh. Cras mattis est eget lacus dignissim, non consectetur velit pellentesque. Ut sit amet placerat eros, id gravida arcu. Sed felis purus, tempor ac vestibulum nec, consectetur at purus.",
+      "A CNP Mídia oferece soluções completas de marketing digital, incluindo gestão de redes sociais, criação de conteúdo, estratégias de SEO e campanhas publicitárias. Nossa equipe especializada desenvolve estratégias personalizadas para aumentar sua presença digital e gerar resultados mensuráveis.",
   },
   {
     id: 2,
-    question: "Where do I find my Purchase or License code?",
+    question: "Quais são os principais serviços oferecidos?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula porttitor rutrum. Ut laoreet sodales rutrum. Ut eget tristique nibh. Cras mattis est eget lacus dignissim, non consectetur velit pellentesque. Ut sit amet placerat eros, id gravida arcu. Sed felis purus, tempor ac vestibulum nec, consectetur at purus.",
+      "Oferecemos gestão profissional de redes sociais, criação de conteúdo estratégico, marketing digital, desenvolvimento de sites, otimização para SEO, gestão de tráfego pago e consultoria em marketing digital. Nosso objetivo é impulsionar seu negócio com soluções integradas e eficientes.",
   },
   {
     id: 3,
-    question: "Do I need to buy a licence for each site?",
+    question: "Como é o processo de trabalho?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula porttitor rutrum. Ut laoreet sodales rutrum. Ut eget tristique nibh. Cras mattis est eget lacus dignissim, non consectetur velit pellentesque. Ut sit amet placerat eros, id gravida arcu. Sed felis purus, tempor ac vestibulum nec, consectetur at purus.",
+      "Iniciamos com uma análise detalhada do seu negócio e objetivos. Em seguida, desenvolvemos um planejamento estratégico personalizado, implementamos as ações definidas e realizamos monitoramento constante dos resultados. Mantemos comunicação transparente e relatórios periódicos de desempenho.",
   },
   {
     id: 4,
-    question: "Is my license transferable?",
+    question: "Qual é o investimento necessário?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula porttitor rutrum. Ut laoreet sodales rutrum. Ut eget tristique nibh. Cras mattis est eget lacus dignissim, non consectetur velit pellentesque. Ut sit amet placerat eros, id gravida arcu. Sed felis purus, tempor ac vestibulum nec, consectetur at purus.",
+      "O investimento varia de acordo com suas necessidades específicas e objetivos. Desenvolvemos pacotes personalizados que se adequam ao seu orçamento e metas. Agende uma consulta gratuita para discutirmos as melhores opções para seu negócio e apresentarmos um orçamento detalhado.",
   },
 ];
+
 export const faqs3 = [
   {
     question: "Our Story",

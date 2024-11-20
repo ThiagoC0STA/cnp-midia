@@ -9,17 +9,14 @@ export default function Testimonials3() {
     <div className="container">
       <div className="row">
         <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
-          <h2 className="section-caption mb-xs-10 wow fadeInUp">
-            Clients Stories
-          </h2>
+          <h2 className="section-caption mb-xs-10 wow fadeInUp">Depoimentos</h2>
           <h3 className="section-title mb-50 mb-sm-30">
             <span className="wow charsAnimIn" data-splitting="chars">
-              We're trusted by leading worldwide companies.
+              O que nossos clientes dizem sobre nós.
             </span>
           </h3>
         </div>
       </div>
-      {/* Testimonials Carousel */}
       <div className="wow fadeInUp" data-wow-delay="0.6s">
         <Swiper
           spaceBetween={0}
@@ -31,16 +28,16 @@ export default function Testimonials3() {
           }}
           breakpoints={{
             1199: {
-              slidesPerView: 3, // When window width is <= 1199px
+              slidesPerView: 3,
             },
             1024: {
               slidesPerView: 2,
             },
             768: {
-              slidesPerView: 1, // When window width is <= 768px
+              slidesPerView: 1,
             },
             0: {
-              slidesPerView: 1, // When window width is <= 480px
+              slidesPerView: 1,
             },
           }}
           watchSlidesProgress
@@ -51,7 +48,6 @@ export default function Testimonials3() {
             display: "block",
           }}
         >
-          {/* Team item */}
           {testimonials3.map((elm, i) => (
             <SwiperSlide className="owl-item" key={i}>
               <div className="testimonials-3-item">
@@ -61,14 +57,14 @@ export default function Testimonials3() {
                 <blockquote className="testimonials-3-text">
                   <p className="mb-0">{elm.text}</p>
                   <footer className="testimonials-3-author pt-30 clearfix">
-                    <div className="testimonials-3-author-img float-start">
+                    {/* <div className="testimonials-3-author-img float-start">
                       <Image
                         width={44}
                         height={44}
                         src={elm.imgSrc}
-                        alt="Image description is here"
+                        alt="Foto do cliente"
                       />
-                    </div>
+                    </div> */}
                     <div className="overflow-hidden">
                       {elm.author}
                       <div className="small">{elm.role}</div>
@@ -81,20 +77,17 @@ export default function Testimonials3() {
           <div className="owl-controls clickable">
             <div className="owl-buttons">
               <div className="owl-prev snbp7" role="button" tabIndex="0">
-                <span className="visually-hidden">Previous Slide</span>
+                <span className="visually-hidden">Slide Anterior</span>
                 <i className="mi-arrow-left" aria-hidden="true"></i>
               </div>
               <div className="owl-next snbn7" role="button" tabIndex="0">
-                <span className="visually-hidden">Next Slide</span>
+                <span className="visually-hidden">Próximo Slide</span>
                 <i className="mi-arrow-right" aria-hidden="true"></i>
               </div>
             </div>
           </div>
-
-          {/* End Team item */}
         </Swiper>
       </div>
-      {/* End Testimonials Carousel */}
     </div>
   );
 }
