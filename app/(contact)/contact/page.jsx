@@ -1,30 +1,24 @@
 import Footer1 from "@/components/footers/Footer1";
-
 import dynamic from "next/dynamic";
 import Image from "next/image";
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
   {
-    ssr: false, // Disable server-side rendering
+    ssr: false,
   }
 );
-
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import AnimatedText from "@/components/common/AnimatedText";
-
 import React from "react";
-
 import Faq from "@/components/common/Faq";
-
 import Contact2 from "@/components/homes/home-1/Contact2";
-
 import { menuItemsDark } from "@/data/menu";
+
 export const metadata = {
-  title:
-    "Main About 1 Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-  description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "CNP Mídia | Entre em Contato",
+  description: "Entre em contato com a CNP Mídia para impulsionar sua presença digital com nossas soluções personalizadas de marketing digital e gestão de redes sociais.",
 };
+
 export default function MainAboutPage1Dark() {
   return (
     <>
@@ -47,51 +41,41 @@ export default function MainAboutPage1Dark() {
                     <>
                       <div className="position-absolute top-0 bottom-0 start-0 end-0 bg-gradient-dark"></div>
                       <div className="container position-relative pt-50">
-                        {/* Section Content */}
                         <div className="text-center">
                           <div className="row">
-                            {/* Page Title */}
                             <div className="col-md-8 offset-md-2">
                               <h2
                                 className="section-caption-border mb-30 mb-xs-20 wow fadeInUp"
                                 data-wow-duration="1.2s"
                               >
-                                Contact Us
+                                Fale Conosco
                               </h2>
                               <h1 className="hs-title-1 mb-0">
                                 <span
                                   className="wow charsAnimIn"
                                   data-splitting="chars"
                                 >
-                                  Say hello and let’s start the productive work.
+                                  Vamos impulsionar seu negócio juntos
                                 </span>
                               </h1>
                             </div>
-                            {/* End Page Title */}
                           </div>
                         </div>
-                        {/* End Section Content */}
                       </div>
                     </>
                   </>
                 </ParallaxContainer>
               </section>
               <>
-                {/* Contact Section */}
                 <section
                   className="page-section bg-dark-1 light-content pt-0"
                   id="contact"
                 >
                   <Contact2 />
                 </section>
-                {/* End Contact Section */}
-                {/* Divider */}
                 <hr className="mt-0 mb-0 white" />
-                {/* End Divider */}
-                {/* FAQ Section */}
                 <section className="page-section bg-dark-1 light-content z-index-1">
                   <div className="container position-relative">
-                    {/* Decorative Waves */}
                     <div className="position-relative">
                       <div
                         className="decoration-21 d-none d-lg-block"
@@ -108,24 +92,17 @@ export default function MainAboutPage1Dark() {
                         />
                       </div>
                     </div>
-                    {/* End Decorative Waves */}
                     <div className="row position-relative">
                       <div className="col-md-6 col-lg-5 mb-md-50 mb-sm-30">
                         <h3 className="section-title mb-30">
-                          Frequently Asked Questions
+                          Perguntas Frequentes
                         </h3>
                         <p className="text-gray mb-0">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nam pulvinar vitae neque et porttitor. Integer
-                          non dapibus diam, ac eleifend lectus. In maximus
-                          ligula semper metus pellentesque mattis. Maecenas
-                          volutpat, diam enim sagittis quam.
+                          Tire suas dúvidas sobre nossos serviços de marketing digital e gestão de redes sociais. Estamos aqui para ajudar sua empresa a crescer no ambiente digital com estratégias personalizadas e resultados comprovados.
                         </p>
                       </div>
                       <div className="col-md-6 offset-lg-1 pt-10 pt-sm-0">
-                        {/* Accordion */}
                         <Faq />
-                        {/* End Accordion */}
                       </div>
                     </div>
                   </div>
