@@ -1,15 +1,15 @@
 "use client";
 
-import { portfolios12 } from "@/data/portfolio";
+import { portfolios1 } from "@/data/portfolio";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { Gallery, Item } from "react-photoswipe-gallery";
 const filters = [
-  { name: "All works", category: "all" },
-  { name: "Branding", category: "branding" },
+  { name: "Todos", category: "all" },
+  { name: "Sites", category: "website" },
+  { name: "Edicão de vídeo", category: "video" },
   { name: "Design", category: "design" },
-  { name: "Development", category: "development" },
 ];
 export default function Portfolio({ gridClass = "" }) {
   const [currentCategory, setCurrentCategory] = useState("all");
@@ -66,43 +66,27 @@ export default function Portfolio({ gridClass = "" }) {
         id="work-grid"
       >
         <Gallery>
-          {portfolios12.map((item, index) => (
+          {portfolios1.map((item, index) => (
             <li key={index} className={item.className}>
-              {item.description == "Lightbox" ? (
-                <a className={item.linkClassName}>
-                  <div className="work-img">
-                    <div className="work-img-bg " />
-                    <Item
-                      original={item.imgSrc}
-                      thumbnail={item.imgSrc}
+              <Link
+                href={`/portfolio/${item.id}`}
+                className={item.linkClassName}
+              >
+                <div className="work-img">
+                  <div className="work-img-bg " />
+                  {item.videoSrc ? (
+                    <video
                       width={650}
                       height={773}
-                    >
-                      {({ ref, open }) => (
-                        <Image
-                          width={650}
-                          height={773}
-                          ref={ref}
-                          onClick={open}
-                          src={item.imgSrc}
-                          alt={item.imgAlt}
-                          data-wow-delay={item.delay}
-                        />
-                      )}
-                    </Item>
-                  </div>
-                  <div className="work-intro text-start">
-                    <h3 className="work-title">{item.title}</h3>
-                    <div className="work-descr">{item.description}</div>
-                  </div>
-                </a>
-              ) : (
-                <Link
-                  href={`/main-portfolio-single-1/${item.id}`}
-                  className={item.linkClassName}
-                >
-                  <div className="work-img">
-                    <div className="work-img-bg " />
+                      src={item.videoSrc}
+                      alt={item.imgAlt}
+                      data-wow-delay={item.delay}
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                    />
+                  ) : (
                     <Image
                       width={650}
                       height={773}
@@ -110,13 +94,13 @@ export default function Portfolio({ gridClass = "" }) {
                       alt={item.imgAlt}
                       data-wow-delay={item.delay}
                     />
-                  </div>
-                  <div className="work-intro text-start">
-                    <h3 className="work-title">{item.title}</h3>
-                    <div className="work-descr">{item.description}</div>
-                  </div>
-                </Link>
-              )}
+                  )}
+                </div>
+                <div className="work-intro text-start">
+                  <h3 className="work-title">{item.title}</h3>
+                  <div className="work-descr">{item.description}</div>
+                </div>
+              </Link>
             </li>
           ))}
         </Gallery>

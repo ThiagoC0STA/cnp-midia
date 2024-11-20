@@ -1,17 +1,17 @@
 "use client";
-import { useEffect } from "react";
-import "swiper/css";
-import "../public/assets/css/styles.css";
-import "jarallax/dist/jarallax.min.css";
-import "swiper/css/effect-fade";
-import "react-modal-video/css/modal-video.css";
-import "photoswipe/dist/photoswipe.css";
-import { usePathname } from "next/navigation";
 import { parallaxMouseMovement, parallaxScroll } from "@/utlis/parallax";
+import "jarallax/dist/jarallax.min.css";
+import { usePathname } from "next/navigation";
+import "photoswipe/dist/photoswipe.css";
+import { useEffect } from "react";
+import "react-modal-video/css/modal-video.css";
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "../public/assets/css/styles.css";
 
-import "tippy.js/dist/tippy.css";
-import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
+import { init_wow } from "@/utlis/initWowjs";
+import "tippy.js/dist/tippy.css";
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -34,10 +34,7 @@ export default function RootLayout({ children }) {
   }, [path]);
   useEffect(() => {
     if (typeof window !== "undefined") {
-      // Import the script only on the client side
-      import("bootstrap/dist/js/bootstrap.esm").then(() => {
-        // Module is imported, you can access any exported functionality if
-      });
+      import("bootstrap/dist/js/bootstrap.esm").then(() => {});
     }
   }, []);
 
@@ -68,6 +65,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </head>
       <body className="appear-animate body">{children}</body>
     </html>

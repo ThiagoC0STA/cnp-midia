@@ -1,5 +1,5 @@
 "use client";
-import { portfolioItems } from "@/data/portfolio";
+import { portfolios1 } from "@/data/portfolio";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
@@ -51,7 +51,7 @@ export default function Portfolio() {
             }}
           >
             {/* Team item */}
-            {portfolioItems.map((item, index) => (
+            {portfolios1.map((item, index) => (
               <SwiperSlide className="owl-item" key={index}>
                 <div className="portfolio-4-item">
                   <a href={item.href}>

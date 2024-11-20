@@ -7198,6 +7198,30 @@ fieldset:disabled .btn {
 .text-opacity-100 {
   --bs-text-opacity: 1;
 }
+.portfolio-images {
+  opacity: 0.95 !important;
+  border-radius: 20px;
+}
+
+.portfolio-videos {
+  border-radius: 20px;
+  height: 800px;
+  width: 410px;
+  object-fit: cover;
+}
+
+.items-portfolio {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 678px) {
+  .items-portfolio {
+    gap: 0px;
+  }
+}
+
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(

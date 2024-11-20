@@ -22,7 +22,7 @@ import Image from "next/image";
 const ParallaxContainer = dynamic(
   () => import("@/components/common/ParallaxContainer"),
   {
-    ssr: false, // Disable server-side rendering
+    ssr: false,
   }
 );
 export default function Home1({ onePage = false, dark = false }) {

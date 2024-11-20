@@ -1,142 +1,594 @@
-export const portfolioItems = [
+export const portfolios1 = [
   {
     id: 1,
-    href: "strong-portfolio-single.html",
-    imgSrc: "/assets/images/demo-strong/portfolio/1.jpg",
-    imgAlt: "Image Description",
-    title: "Rise of Design",
-    descr: "Branding, UI/UX Design",
+    className: "work-item mix website design",
+    href: "/assets/images/portfolio/masonry/full-project-1.jpg",
+    linkClassName: "work-lightbox-link mfp-image",
+    imgSrc: "/assets/images/work/lacosta/8.png",
+    imgAlt: "Lacosta site e social media",
+    delay: "1s",
+    title: "Lacosta",
+    description: "Design e site",
+    longDescription:
+      "Desenvolvimento de site e identidade visual para a Segura Mais, corretora de seguros especializada em proteção patrimonial e pessoal",
+    date: "Janeiro 2024",
+    client: "Lacosta Corretora de Seguros",
+    introduction:
+      "Projeto completo de identidade visual e desenvolvimento web para corretora de seguros",
+    images: [
+      {
+        src: "/assets/images/work/lacosta/1.png",
+        alt: "Homepage Lacosta",
+      },
+      {
+        src: "/assets/images/work/lacosta/2.png",
+        alt: "Design System Lacosta",
+      },
+      {
+        src: "/assets/images/work/lacosta/3.png",
+        alt: "Design System Lacosta",
+      },
+      {
+        src: "/assets/images/work/lacosta/4.png",
+        alt: "Design System Lacosta",
+      },
+      {
+        src: "/assets/images/work/lacosta/5.png",
+        alt: "Design System Lacosta",
+      },
+      {
+        src: "/assets/images/work/lacosta/6.png",
+        alt: "Design System Lacosta",
+      },
+      {
+        src: "/assets/images/work/lacosta/7.png",
+        alt: "Design System Lacosta",
+      },
+      {
+        src: "/assets/images/work/lacosta/8.png",
+        alt: "Design System Lacosta",
+      },
+    ],
   },
   {
     id: 2,
-    href: "strong-portfolio-single.html",
-    imgSrc: "/assets/images/demo-strong/portfolio/2.jpg",
-    imgAlt: "Image Description",
-    title: "Amplitude",
-    descr: "UI/UX Design, Development",
-  },
-  {
-    id: 3,
-    href: "strong-portfolio-single.html",
-    imgSrc: "/assets/images/demo-strong/portfolio/3.jpg",
-    imgAlt: "Image Description",
-    title: "Medium Scene",
-    descr: "Branding, Design",
-  },
-  {
-    id: 4,
-    href: "strong-portfolio-single.html",
-    imgSrc: "/assets/images/demo-strong/portfolio/4.jpg",
-    imgAlt: "Image Description",
-    title: "Rise of Design",
-    descr: "Branding, UI/UX Design",
-  },
-  {
-    id: 5,
-    href: "strong-portfolio-single.html",
-    imgSrc: "/assets/images/demo-strong/portfolio/5.jpg",
-    imgAlt: "Image Description",
-    title: "Amplitude",
-    descr: "UI/UX Design, Development",
-  },
-  {
-    id: 6,
-    href: "strong-portfolio-single.html",
-    imgSrc: "/assets/images/demo-strong/portfolio/6.jpg",
-    imgAlt: "Image Description",
-    title: "Medium Scene",
-    descr: "Branding, Design",
-  },
-];
-
-export const portfolios1 = [
-  {
-    id: 7,
-    className: "work-item mt-90 mt-md-0 mix development",
-    href: "/assets/images/portfolio/masonry/full-project-1.jpg",
-    linkClassName: "work-lightbox-link mfp-image",
-    imgSrc: "/assets/images/portfolio/masonry/projects-1.jpg",
-    imgAlt: "Work Description",
-    delay: "1s",
-    title: "Medium Scene",
-    description: "Lightbox",
-  },
-  {
-    id: 8,
-    className: "work-item mix branding design",
-    href: "main-portfolio-single-1.html",
-    linkClassName: "work-ext-link",
-    imgSrc: "/assets/images/portfolio/masonry/projects-2.jpg",
-    imgAlt: "Work Description",
-    delay: "1s",
-    title: "Rise of Design",
-    description: "External Page",
-  },
-  {
-    id: 9,
-    className: "work-item mt-90 mt-md-0 mix branding",
-    href: "main-portfolio-single-1.html",
-    linkClassName: "work-ext-link",
-    imgSrc: "/assets/images/portfolio/masonry/projects-3.jpg",
-    imgAlt: "Work Description",
-    delay: "1s",
-    title: "Visual Stranger",
-    description: "External Page",
-  },
-  {
-    id: 10,
-    className: "work-item mix design development",
-    href: "main-portfolio-single-1.html",
-    linkClassName: "work-ext-link",
-    imgSrc: "/assets/images/portfolio/masonry/projects-4.jpg",
-    imgAlt: "Work Description",
-    delay: "1s",
-    title: "Amplitude",
-    description: "External Page",
-  },
-  {
-    id: 11,
     className: "work-item mix design",
     href: "main-portfolio-single-1.html",
     linkClassName: "work-ext-link",
-    imgSrc: "/assets/images/portfolio/masonry/projects-5.jpg",
-    imgAlt: "Work Description",
+    imgSrc: "/assets/images/work/food/4.png",
+    imgAlt: "Posts sobre comida",
     delay: "1s",
-    title: "Super Awards",
-    description: "External Page",
+    title: "Posts sobre comida",
+    description: "Design",
+    longDescription:
+      "Criação de posts para redes sociais com foco em gastronomia e culinária",
+    date: "Dezembro 2023",
+    client: "Diversos",
+    introduction:
+      "Série de posts para divulgação de pratos e promoções do restaurante",
+    images: [
+      {
+        src: "/assets/images/work/food/1.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/2.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/3.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/4.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/5.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/6.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/7.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/8.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/9.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/10.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/11.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/12.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/13.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/14.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/15.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/16.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/17.png",
+        alt: "Posts comida",
+      },
+      {
+        src: "/assets/images/work/food/18.png",
+        alt: "Posts comida",
+      },
+    ],
+  },
+  {
+    id: 3,
+    className: "work-item mix video",
+    href: "main-portfolio-single-1.html",
+    linkClassName: "work-ext-link",
+    videoSrc: "/assets/images/work/luxury/luxuryforth.mp4",
+    imgAlt: "Edição de video de luxo",
+    delay: "1s",
+    title: "Edição de video de luxo",
+    description: "Edição de video",
+    longDescription:
+      "Edição de vídeos para marcas de luxo, com foco em qualidade e elegância",
+    date: "Novembro 2023",
+    client: "Diversos",
+    introduction:
+      "Produção audiovisual para campanha de lançamento de nova coleção",
+    videos: [
+      {
+        src: "/assets/images/work/luxury/luxuryone.mp4",
+        alt: "Luxury videos",
+      },
+      {
+        src: "/assets/images/work/luxury/luxurythird.mp4",
+        alt: "Luxury videos",
+      },
+      {
+        src: "/assets/images/work/luxury/luxuryforth.mp4",
+        alt: "Luxury videos",
+      },
+      {
+        src: "/assets/images/work/luxury/luxuryfifth.mp4",
+        alt: "Luxury videos",
+      },
+      {
+        src: "/assets/images/work/luxury/luxurysixth.mp4",
+        alt: "Luxury videos",
+      },
+      {
+        src: "/assets/images/work/luxury/luxuryseventh.mp4",
+        alt: "Luxury videos",
+      },
+    ],
+  },
+  {
+    id: 4,
+    className: "work-item mix design website",
+    href: "main-portfolio-single-1.html",
+    linkClassName: "work-ext-link",
+    imgSrc: "/assets/images/work/zytro/2.png",
+    imgAlt: "Zytro site",
+    delay: "1s",
+    title: "Zytro",
+    description: "Design e site",
+    longDescription:
+      "Desenvolvimento de site e identidade visual para a Zytro, startup de tecnologia",
+    date: "Outubro 2023",
+    client: "Zytro",
+    introduction: "Projeto de branding e website para startup inovadora",
+    images: [
+      {
+        src: "/assets/images/work/zytro/zytro.png",
+        alt: "Website Zytro",
+      },
+      {
+        src: "/assets/images/work/zytro/2.png",
+        alt: "Logo Aplicações Zytro",
+      },
+      {
+        src: "/assets/images/work/zytro/3.png",
+        alt: "Logo Aplicações Zytro",
+      },
+      {
+        src: "/assets/images/work/zytro/4.png",
+        alt: "Logo Aplicações Zytro",
+      },
+      {
+        src: "/assets/images/work/zytro/5.png",
+        alt: "Logo Aplicações Zytro",
+      },
+      {
+        src: "/assets/images/work/zytro/6.png",
+        alt: "Logo Aplicações Zytro",
+      },
+    ],
+  },
+  {
+    id: 5,
+    className: "work-item mix design",
+    href: "main-portfolio-single-1.html",
+    linkClassName: "work-ext-link",
+    imgSrc: "/assets/images/work/fashion/3.png",
+    imgAlt: "Posts sobre moda",
+    delay: "1s",
+    title: "Posts sobre moda",
+    description: "Design",
+    longDescription:
+      "Design de posts para redes sociais focados em moda e tendências",
+    date: "Setembro 2023",
+    client: "Diversos",
+    introduction: "Criação de conteúdo digital para loja de moda",
+    images: [
+      {
+        src: "/assets/images/work/fashion/1.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/2.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/3.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/4.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/5.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/6.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/7.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/8.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/9.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/10.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/11.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/12.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/13.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/14.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/15.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/16.png",
+        alt: "Post Moda",
+      },
+      {
+        src: "/assets/images/work/fashion/17.png",
+        alt: "Post Moda",
+      },
+    ],
+  },
+  {
+    id: 6,
+    className: "work-item mix video",
+    href: "/assets/images/portfolio/masonry/full-project-6.jpg",
+    linkClassName: "work-lightbox-link mfp-image",
+    videoSrc: "/assets/images/work/editing/editionone.mp4",
+    imgAlt: "Melhores edições de video",
+    delay: "1s",
+    title: "Melhores edições de video",
+    description: "Edição de video",
+    longDescription:
+      "Compilação dos melhores trabalhos de edição de vídeo realizados",
+    date: "Agosto 2023",
+    client: "Diversos",
+    introduction: "Portfólio de trabalhos selecionados em edição de vídeo",
+    videos: [
+      {
+        src: "/assets/images/work/editing/editionone.mp4",
+        alt: "Compilação Videos",
+      },
+      {
+        src: "/assets/images/work/editing/editionsecond.mp4",
+        alt: "Melhores Momentos",
+      },
+      {
+        src: "/assets/images/work/editing/editionthird.mp4",
+        alt: "Momentos Especiais",
+      },
+      {
+        src: "/assets/images/work/editing/editionfourth.mp4",
+        alt: "Destaques",
+      },
+      {
+        src: "/assets/images/work/editing/editionfifth.mp4",
+        alt: "Melhores Takes",
+      },
+      {
+        src: "/assets/images/work/editing/editionseventh.mp4",
+        alt: "Compilação Final",
+      },
+    ],
+  },
+  {
+    id: 7,
+    className: "work-item mix design",
+    href: "/assets/images/portfolio/masonry/full-project-7.jpg",
+    linkClassName: "work-lightbox-link mfp-image",
+    imgSrc: "/assets/images/work/trippy/6.png",
+    imgAlt: "Posts fora da caixa",
+    delay: "1s",
+    title: "Posts fora da caixa",
+    description: "Design",
+    longDescription: "Design criativo e inovador para posts em redes sociais",
+    date: "Julho 2023",
+    client: "Diversos",
+    introduction: "Série de posts com design diferenciado e criativo",
+    images: [
+      {
+        src: "/assets/images/work/trippy/1.png",
+        alt: "Post Criativo 1",
+      },
+      {
+        src: "/assets/images/work/trippy/2.png",
+        alt: "Post Criativo 2",
+      },
+      {
+        src: "/assets/images/work/trippy/3.png",
+        alt: "Post Criativo 3",
+      },
+      {
+        src: "/assets/images/work/trippy/4.png",
+        alt: "Post Criativo 4",
+      },
+      {
+        src: "/assets/images/work/trippy/5.png",
+        alt: "Post Criativo 5",
+      },
+      {
+        src: "/assets/images/work/trippy/6.png",
+        alt: "Post Criativo 6",
+      },
+    ],
+  },
+  {
+    id: 8,
+    className: "work-item mix design",
+    href: "/assets/images/portfolio/masonry/full-project-8.jpg",
+    linkClassName: "work-lightbox-link mfp-image",
+    imgSrc: "/assets/images/work/tshirt/1.png",
+    imgAlt: "Design de camisetas",
+    delay: "1s",
+    title: "Design de camisetas",
+    description: "Design",
+    longDescription: "Criação de designs exclusivos para linha de camisetas",
+    date: "Junho 2023",
+    client: "Urban Style",
+    introduction: "Desenvolvimento de coleção exclusiva de estampas",
+    images: [
+      {
+        src: "/assets/images/work/tshirt/1.png",
+        alt: "Camiseta Design 1",
+      },
+      {
+        src: "/assets/images/work/tshirt/2.png",
+        alt: "Camiseta Design 2",
+      },
+      {
+        src: "/assets/images/work/tshirt/3.png",
+        alt: "Camiseta Design 3",
+      },
+      {
+        src: "/assets/images/work/tshirt/4.png",
+        alt: "Camiseta Design 4",
+      },
+    ],
+  },
+  {
+    id: 9,
+    className: "work-item mix video",
+    href: "/assets/images/portfolio/masonry/full-project-8.jpg",
+    linkClassName: "work-lightbox-link mfp-image",
+    videoSrc: "/assets/images/work/influencer/curiositythird.mp4",
+    imgAlt: "Influencers",
+    delay: "1s",
+    title: "Influencers",
+    description: "Edição de video",
+    longDescription:
+      "Edição de vídeos para influenciadores digitais e criadores de conteúdo",
+    date: "Maio 2023",
+    client: "Diversos Influenciadores",
+    introduction: "Edição profissional para conteúdo de redes sociais",
+    videos: [
+      {
+        src: "/assets/images/work/influencer/curiosityone.mp4",
+        alt: "Video Influencer 1",
+      },
+      {
+        src: "/assets/images/work/influencer/curiositysecond.mp4",
+        alt: "Video Influencer 2",
+      },
+      {
+        src: "/assets/images/work/influencer/curiositythird.mp4",
+        alt: "Video Influencer 3",
+      },
+      {
+        src: "/assets/images/work/influencer/curiosityfourth.mp4",
+        alt: "Video Influencer 4",
+      },
+      {
+        src: "/assets/images/work/influencer/curiosityfifth.mp4",
+        alt: "Video Influencer 5",
+      },
+      {
+        src: "/assets/images/work/influencer/curiositysixth.mp4",
+        alt: "Video Influencer 6",
+      },
+      {
+        src: "/assets/images/work/influencer/curiosityseventh.mp4",
+        alt: "Video Influencer 7",
+      },
+      {
+        src: "/assets/images/work/influencer/curiosityeighth.mp4",
+        alt: "Video Influencer 8",
+      },
+      {
+        src: "/assets/images/work/influencer/curiosityninth.mp4",
+        alt: "Video Influencer 9",
+      },
+      {
+        src: "/assets/images/work/influencer/curiositytenth.mp4",
+        alt: "Video Influencer 10",
+      },
+    ],
+  },
+  {
+    id: 11,
+    className: "work-item mix website",
+    href: "/assets/images/portfolio/masonry/full-project-8.jpg",
+    linkClassName: "work-lightbox-link mfp-image",
+    imgSrc: "/assets/images/work/metaverse/6.png",
+    imgAlt: "Metaversus site",
+    delay: "1s",
+    title: "Metaversus",
+    description: "Site",
+    longDescription:
+      "Desenvolvimento de site para a Metaversus, empresa focada em realidade virtual",
+    date: "Março 2023",
+    client: "Metaversus VR",
+    introduction: "Website moderno para empresa de realidade virtual",
+    images: [
+      {
+        src: "/assets/images/work/metaverse/1.png",
+        alt: "Homepage Metaversus",
+      },
+      {
+        src: "/assets/images/work/metaverse/2.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/3.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/4.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/5.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/6.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/7.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/8.png",
+        alt: "Landing Page VR",
+      },
+    ],
   },
   {
     id: 12,
-    className: "work-item mix design branding",
-    href: "/assets/images/portfolio/masonry/full-project-6.jpg",
-    linkClassName: "work-lightbox-link mfp-image",
-    imgSrc: "/assets/images/portfolio/masonry/projects-6.jpg",
-    imgAlt: "Work Description",
-    delay: "1s",
-    title: "Design System",
-    description: "Lightbox",
-  },
-  {
-    id: 13,
-    className: "work-item mix mix design",
-    href: "/assets/images/portfolio/masonry/full-project-7.jpg",
-    linkClassName: "work-lightbox-link mfp-image",
-    imgSrc: "/assets/images/portfolio/masonry/projects-6.jpg",
-    imgAlt: "Work Description",
-    delay: "1s",
-    title: "Amplitude",
-    description: "External Page",
-  },
-  {
-    id: 14,
-    className: "work-item mix design development",
+    className: "work-item mix website",
     href: "/assets/images/portfolio/masonry/full-project-8.jpg",
     linkClassName: "work-lightbox-link mfp-image",
-    imgSrc: "/assets/images/portfolio/masonry/projects-6.jpg",
-    imgAlt: "Work Description",
+    imgSrc: "/assets/images/work/360/2.png",
+    imgAlt: "360 ERP",
     delay: "1s",
-    title: "Super Awards",
-    description: "External Page",
+    title: "360 ERP",
+    description: "Design e site",
+    longDescription:
+      "Desenvolvimento de site e interface para sistema ERP completo",
+    date: "Fevereiro 2023",
+    client: "360 ERP",
+    introduction: "Sistema ERP completo com interface moderna e intuitiva",
+    images: [
+      {
+        src: "/assets/images/work/360/1.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/2.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/3.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/4.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/5.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/6.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/7.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/8.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/9.png",
+        alt: "Dashboard ERP",
+      },
+    ],
   },
 ];
 
@@ -795,7 +1247,6 @@ export const portfolios13 = [
 ];
 
 export const allPortfolios = [
-  ...portfolioItems,
   ...portfolios1,
   ...portfolios2,
   ...portfolios3,

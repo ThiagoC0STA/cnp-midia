@@ -1,4 +1,4 @@
-import { portfolioItems } from "@/data/portfolio";
+import { portfolios1 } from "@/data/portfolio";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +15,7 @@ export default function RetaledProject1() {
       {/* Portfolio Grid */}
       <div className="row mb-n40 wow fadeInUp" data-wow-offset={0}>
         {/* Portfolio item */}
-        {portfolioItems.slice(3, 7).map((elm, i) => (
+        {portfolios1.slice(3, 7).map((elm, i) => (
           <div key={i} className="col-md-6 col-lg-4 mb-40">
             <div className="portfolio-4-item">
               <Link href={`/strong-portfolio-single/${elm.id}`}>

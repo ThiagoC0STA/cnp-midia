@@ -7616,7 +7616,16 @@ img.services-image {
   position: relative;
   overflow: hidden;
   transform: rotate(0.001deg) translateZ(0);
+  height: 380px;
 }
+
+.project-images {
+  width: 650px !important;
+  height: 380px !important;
+  object-fit: cover;
+}
+
+
 .work-img-bg {
   position: absolute;
   top: 0;
@@ -7628,12 +7637,17 @@ img.services-image {
 .light-content .work-img-bg {
   background-color: var(--color-dark-3);
 }
-.work-img img {
+.work-img img,
+.work-img video {
   display: block;
   position: relative;
   width: 100%;
+  height: 100%;
   overflow: hidden;
+  object-fit: cover;
+  object-position: 20% center;
   transform: rotate(0.001deg) translateZ(0);
+  border-radius: 10px;
 }
 .work-intro {
   width: 100%;
