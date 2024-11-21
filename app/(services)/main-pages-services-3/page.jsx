@@ -17,7 +17,6 @@ import Benefits2 from "@/components/homes/home-1/Benefits2";
 
 import Link from "next/link";
 import { features2 } from "@/data/features";
-import Pricing from "@/components/homes/home-1/Pricing";
 import Image from "next/image";
 import { menuItems } from "@/data/menu";
 export const metadata = {
@@ -234,7 +233,7 @@ export default function MainServicesPage3() {
                 </div>
                 <div className="row wow fadeInUp">
                   <div className="col-xl-10 offset-xl-1">
-                    <Pricing />
+                    {/* <Pricing /> */}
                   </div>
                 </div>
               </div>

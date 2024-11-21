@@ -17,7 +17,6 @@ import React from "react";
 
 import Faq from "@/components/common/Faq";
 import { menuItemsDark } from "@/data/menu";
-import Pricing2 from "@/components/homes/home-1/Pricing2";
 
 export const metadata = {
   title:
@@ -80,7 +79,7 @@ export default function MainAboutPage1Dark() {
                   <div className="container">
                     <div className="row wow fadeInUp">
                       {/* Nav Tabs */}
-                      <Pricing2 />
+                      {/* <Pricing2 /> */}
                       {/* End Tab panes */}
                     </div>
                   </div>

@@ -17,7 +17,6 @@ import React from "react";
 
 import Faq from "@/components/common/Faq";
 
-import Pricing2 from "@/components/homes/home-1/Pricing2";
 import { menuItems } from "@/data/menu";
 export const metadata = {
   title:
@@ -79,7 +78,7 @@ export default function MainAboutPage1() {
                 <div className="container">
                   <div className="row wow fadeInUp">
                     {/* Nav Tabs */}
-                    <Pricing2 />
+                    {/* <Pricing2 /> */}
                     {/* End Tab panes */}
                   </div>
                 </div>
