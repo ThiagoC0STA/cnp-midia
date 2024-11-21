@@ -1,7 +1,7 @@
 export const portfolios1 = [
   {
     id: 12,
-    className: "work-item mix website design",
+    className: "work-item mix website",
     href: "/assets/images/portfolio/masonry/full-project-1.jpg",
     linkClassName: "work-lightbox-link mfp-image",
     imgSrc: "/assets/images/work/lacosta/8.png",

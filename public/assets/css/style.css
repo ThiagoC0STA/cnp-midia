@@ -6914,11 +6914,12 @@ img.services-image {
   fill: currentColor;
 }
 .alt-features-title {
-  margin-bottom: 11px;
+  margin-bottom: 5px;
   font-size: 19px;
   font-weight: 500;
   letter-spacing: -0.02em;
   transition: var(--transition-default);
+  margin-top: -5px;
 }
 .alt-features-descr {
   font-size: 16px;
@@ -11220,6 +11221,7 @@ a.blog-item-more:hover {
 .team-carousel .owl-pagination {
   display: none;
 }
+
 .team-carousel .owl-prev,
 .team-carousel .owl-next {
   display: flex;
@@ -12741,4 +12743,11 @@ html:not(.mobile) .owl-animate-fadeInDown {
 }
 .works-grid.grid-intro-2 .work-item .work-descr {
   font-size: 16px;
+}
+
+
+@media (max-width: 767.98px) {
+  .mt-on-mobile {
+    margin-top: 50px;
+  }
 }

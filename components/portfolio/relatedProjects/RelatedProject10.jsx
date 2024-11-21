@@ -44,6 +44,7 @@ export default function RelatedProject10({ excludeId }) {
                       autoPlay
                       muted
                       loop
+                      playsInline
                     />
                   ) : (
                     <Image

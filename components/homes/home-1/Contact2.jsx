@@ -40,7 +40,7 @@ export default function Contact2() {
         </div>
         <div className="col-lg-2">
           <div className="row mb-60 mb-sm-50">
-            <div className="col-sm-6 mb-xs-30 d-flex align-items-stretch">
+            <div className="col-sm-6 mb-xs-30 d-flex align-items-stretch mt-on-mobile">
               <div
                 className="alt-features-item border-left mt-0 wow fadeScaleIn"
                 data-wow-delay=".3s"
@@ -71,14 +71,15 @@ export default function Contact2() {
                     </svg>
                   </div>
                 </div>
-                <h4 className="alt-features-title">Fale Conosco</h4>
+                <h4 className="alt-features-title">
+                  Fale Conosco por email ou abaixo
+                </h4>
                 <div className="alt-features-descr clearlinks">
                   <div>
                     <a href="mailto:contato@cnpmidia.com.br">
                       contato@cnpmidia.com.br
                     </a>
                   </div>
-                  <div>+55 (11) 99999-9999</div>
                 </div>
               </div>
             </div>
@@ -153,8 +154,8 @@ export default function Contact2() {
                 <div className="form-tip pt-20 pt-sm-0 mt-sm-20">
                   <i className="icon-info size-16" />
                   Todos os campos são obrigatórios. Ao enviar o formulário você
-                  concorda com os <a href="#">Termos e Condições</a> e{" "}
-                  <a href="#">Política de Privacidade</a>.
+                  concorda com os <a href="/terms">Termos e Condições</a> e{" "}
+                  <a href="/policy">Política de Privacidade</a>.
                 </div>
               </div>
             </div>

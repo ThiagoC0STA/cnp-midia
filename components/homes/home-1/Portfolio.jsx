@@ -31,10 +31,14 @@ export default function Portfolio() {
   };
   const updateCategory = (val) => {
     setCurrentCategory(val);
-    isotope.current.arrange({
-      filter: val == "all" ? "*" : "." + val,
-    });
-    //   isotope.value.layout();
+    
+    // Adicionar pequeno delay para garantir que as imagens foram carregadas
+    setTimeout(() => {
+      isotope.current.arrange({
+        filter: val === "all" ? "*" : "." + val,
+      });
+      isotope.current.layout();
+    }, 100);
   };
   useEffect(() => {
     /////////////////////////////////////////////////////
@@ -42,6 +46,24 @@ export default function Portfolio() {
 
     initIsotop();
   }, []);
+
+  const getFilteredPortfolios = () => {
+    const filteredItems = currentCategory === "all"
+      ? portfolios1
+      : portfolios1.filter((item) => item.className.includes(currentCategory));
+      
+    return filteredItems.slice(0, 6);
+  };
+
+  useEffect(() => {
+    initIsotop();
+
+    // Recarregar o layout quando a categoria mudar
+    if (isotope.current) {
+      isotope.current.layout();
+    }
+  }, [currentCategory]);
+
   return (
     <div className="container">
       <div className="row mb-60 mb-md-40">
@@ -83,7 +105,7 @@ export default function Portfolio() {
       >
         {/* Work Item (Lightbox) */}
         <Gallery>
-          {portfolios1.slice(0, 6).map((item, index) => (
+          {getFilteredPortfolios().map((item, index) => (
             <li key={index} className={item.className}>
               <Link
                 href={`/portfolio/${item.id}`}
@@ -105,7 +127,7 @@ export default function Portfolio() {
                     />
                   ) : (
                     <Image
-                      width={650} 
+                      width={650}
                       height={773}
                       src={item.imgSrc}
                       alt={item.imgAlt}

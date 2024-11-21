@@ -39,7 +39,7 @@ export default function MainAboutPage1Dark() {
                 >
                   <>
                     <>
-                      <div className="position-absolute top-0 bottom-0 start-0 end-0 bg-gradient-dark"></div>
+                      <div className="position-absolute top-0 bottom-0 start-0 end-0 bg-gradient-dark mt-on-mobile"></div>
                       <div className="container position-relative pt-50">
                         <div className="text-center">
                           <div className="row">
