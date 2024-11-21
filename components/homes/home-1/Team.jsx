@@ -15,8 +15,8 @@ export default function Team() {
               ”
             </div>
             <p>
-              A Cnp Midia tem uma equipe dedicada que transforma ideias em
-              resultados.
+              A equipe da CNP Mídia não só entendeu nossa visão, mas superou
+              todas as expectativas.
             </p>
             <footer>
               <div className="section-line mb-10" />
