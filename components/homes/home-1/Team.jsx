@@ -15,12 +15,13 @@ export default function Team() {
               ”
             </div>
             <p>
-              Nós temos uma equipe dedicada que transforma ideias em resultados.
+              A Cnp Midia tem uma equipe dedicada que transforma ideias em
+              resultados.
             </p>
             <footer>
               <div className="section-line mb-10" />
-              Thiago Costa
-              <div className="small">Programador, co-fundador</div>
+              Luciano A.
+              <div className="small">CEO - La Costa Corretora de Seguros</div>
             </footer>
           </blockquote>
         </div>
