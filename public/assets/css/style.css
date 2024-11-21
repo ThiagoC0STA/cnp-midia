@@ -11196,8 +11196,9 @@ a.blog-item-more:hover {
 }
 
 .team-photo {
-  height: 400px !important;
+  height: 420px !important;
   object-fit: cover;
+  object-position: center 30%;
 }
 
 /* Team carousel */

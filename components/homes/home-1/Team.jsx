@@ -64,6 +64,7 @@ export default function Team() {
                           src={member.image}
                           className="wow scaleOutIn team-photo"
                           alt="Image Description"
+                          quality={100}
                         />
                         <div className="team-item-detail">
                           <div className="team-social-links">
