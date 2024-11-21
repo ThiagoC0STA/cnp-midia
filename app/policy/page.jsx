@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function PoliticaDePrivacidade({ dark = false }) {
+export default function PoliticaDePrivacidade({ dark = true }) {
   return (
     <>
       <div className={`page-section ${dark ? "bg-dark-1 light-content" : ""}`}>

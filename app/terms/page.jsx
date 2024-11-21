@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function TermosECondicoes() {
+export default function TermosECondicoes({ dark = true }) {
   return (
     <>
-      <div className="page-section">
+      <div className={`page-section ${dark ? "bg-dark-1 light-content" : ""}`}>
         <div className="container">
           <div className="row">
             <div className="col-lg-10 offset-lg-1">
