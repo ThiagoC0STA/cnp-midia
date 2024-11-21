@@ -39,7 +39,7 @@ export default function ServicesPage() {
                 className="page-section bg-dark-1 bg-dark-alpha-60 light-content parallax-5"
                 style={{
                   backgroundImage:
-                    "url(/assets/images/full-width-images/section-bg-11.jpg)",
+                    "url(/assets/images/texture2.jpeg)",
                 }}
               >
                 <div className="container position-relative pt-50 pb-100 pb-sm-20">

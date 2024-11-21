@@ -34,7 +34,7 @@ export default function MainAboutPage1Dark() {
                   className="page-section pb-100 pb-sm-60 bg-dark-1 bg-dark-alpha-80 light-content parallax-5"
                   style={{
                     backgroundImage:
-                      "url(/assets/images/full-width-images/page-title-bg-4.jpg)",
+                      "url(/assets/images/texture2.jpeg)",
                   }}
                 >
                   <>

@@ -74,7 +74,7 @@ export default function Portfolio() {
           </h3>
           <a
             className="btn btn-mod btn-w btn-large btn-round btn-hover-anim mt-4"
-            href="/main-pages-contact-1-dark"
+            href="/portfolio"
           >
             <span>Ver Portfólio completo</span>
           </a>

@@ -53,7 +53,7 @@ export const teamMembers = [
   {
     name: "Kaiky Alvarez",
     role: "Editor de video | Copywriter | Co-fundador",
-    image: "/assets/images/team/kaiky5.png",
+    image: "/assets/images/team/kaiky7.png",
     socials: [
       {
         platform: "Instagram",

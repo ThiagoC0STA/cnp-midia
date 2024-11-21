@@ -91,7 +91,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Estratégia Digital
+                Estratégia de Marketing
               </a>
             </li>
           </ul>
@@ -236,7 +236,7 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Estratégia Digital</h4>
+                  <h4 className="services-title">Estratégia de Marketing</h4>
                   <p className="text-gray mb-0">
                     Desenvolvemos estratégias digitais personalizadas e eficazes para sua marca. 
                     Combinamos planejamento, análise de mercado e tendências para criar uma 

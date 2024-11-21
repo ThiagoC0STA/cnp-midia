@@ -3,12 +3,10 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 export const metadata = {
-  title:
-    "Page Not Found || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
-  description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Página Não Encontrada || CNP Mídia - Agência de Marketing Digital",
+  description: "CNP Mídia - Transformando sua presença digital com estratégias inovadoras de marketing",
 };
-export default function MainAboutPage1() {
+export default function NotFoundPage() {
   return (
     <>
       <div className="theme-main">
@@ -16,21 +14,18 @@ export default function MainAboutPage1() {
           <>
             <nav className="main-nav dark light-after-scroll transparent stick-fixed wow-menubar wch-unset">
               <div className="main-nav-sub full-wrapper">
-                {/* Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
-              If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
-              image size for support of retina screens. See details in the template documentation. *) */}
                 <div className="nav-logo-wrap local-scroll">
                   <Link href={`/`} className="logo">
                     <Image
                       src="/assets/images/logo-white.svg"
-                      alt="Your Company Logo"
+                      alt="CNP Mídia Logo"
                       width={105}
                       height={34}
                       className="logo-white"
                     />
                     <Image
                       src="/assets/images/logo-dark.svg"
-                      alt="Your Company Logo"
+                      alt="CNP Mídia Logo"
                       width={105}
                       height={34}
                       className="logo-dark"
@@ -46,14 +41,9 @@ export default function MainAboutPage1() {
                 <div className="inner-nav desktop-nav">
                   <ul className="clearlist scroll-nav local-scroll justify-content-end">
                     <li className="active">
-                      <a href="mailto:ibthemes21@gmail.com">
+                      <a href="mailto:contato@cnpmidia.com">
                         <i className="mi-email align-center" />
-                        ibthemes21@gmail.com
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="mi-call align-center" /> 0307-567-890
+                        contato@cnpmidia.com
                       </a>
                     </li>
                   </ul>
@@ -68,7 +58,7 @@ export default function MainAboutPage1() {
                 className="home-section bg-dark-1 bg-dark-alpha-60 light-content parallax-5"
                 style={{
                   backgroundImage:
-                    "url(/assets/images/full-width-images/section-bg-3.jpg)",
+                    "url(/assets/images/texture2.jpeg)",
                 }}
                 id="home"
               >
@@ -86,7 +76,7 @@ export default function MainAboutPage1() {
                             data-wow-delay=".2s"
                           >
                             <h2 className="section-descr mb-20">
-                              The page you were looking for could not be found.
+                              Desculpe, a página que você procura não foi encontrada.
                             </h2>
                           </div>
                           <div
@@ -98,7 +88,7 @@ export default function MainAboutPage1() {
                               className="btn btn-mod btn-w btn-round btn-medium btn-hover-anim"
                             >
                               <i className="mi-arrow-left size-24 align-center" />
-                              <span>Back To Home Page</span>
+                              <span>Voltar para a Página Inicial</span>
                             </Link>
                           </div>
                         </div>
@@ -112,7 +102,7 @@ export default function MainAboutPage1() {
             </main>
           </>
 
-          <Footer1 />
+          <Footer1 dark/>
         </div>{" "}
       </div>
     </>
