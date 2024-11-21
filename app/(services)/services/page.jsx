@@ -18,6 +18,7 @@ import { features2 } from "@/data/features";
 import Pricing from "@/components/homes/home-1/Pricing";
 import Image from "next/image";
 import { menuItemsDark } from "@/data/menu";
+import { pricing, pricingTrafego, pricingDev } from "@/data/pricing";
 
 export const metadata = {
   title: "Serviços | CNP Mídia - Marketing Digital e Gestão de Redes Sociais",
@@ -206,9 +207,34 @@ export default function ServicesPage() {
                       </h3>
                     </div>
                   </div>
-                  <div className="row wow fadeInUp">
+
+                  {/* Social Media Pricing */}
+                  <div className="row mb-70">
+                    <div className="col-12 text-center mb-40">
+                      <h3 className="section-subtitle">Social Media e Estratégia</h3>
+                    </div>
                     <div className="col-xl-10 offset-xl-1">
-                      <Pricing />
+                      <Pricing items={pricing} />
+                    </div>
+                  </div>
+
+                  {/* Tráfego Pago Pricing */}
+                  <div className="row mb-70">
+                    <div className="col-12 text-center mb-40">
+                      <h3 className="section-subtitle">Tráfego Pago</h3>
+                    </div>
+                    <div className="col-xl-10 offset-xl-1">
+                      <Pricing items={pricingTrafego} />
+                    </div>
+                  </div>
+
+                  {/* Development Pricing */}
+                  <div className="row">
+                    <div className="col-12 text-center mb-40">
+                      <h3 className="section-subtitle">Desenvolvimento Web e Programação</h3>
+                    </div>
+                    <div className="col-xl-10 offset-xl-1">
+                      <Pricing items={pricingDev} />
                     </div>
                   </div>
                 </div>

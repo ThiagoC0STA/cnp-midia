@@ -10,6 +10,7 @@ import Hero1 from "@/components/homes/home-1/heros/Hero1";
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import { menuItemsDark } from "@/data/menu";
 import Footer1 from "@/components/footers/Footer1";
+
 export const metadata = {
   title: "CNP Mídia | Agência Especializada em Social Media",
   description:

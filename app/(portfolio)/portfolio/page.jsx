@@ -60,7 +60,7 @@ export default function MainPortfolioPageBoxed3ColDark() {
                                 data-wow-delay="0.2s"
                                 data-wow-duration="1.2s"
                               >
-                                Where every detail counts, our work stands out. 
+                                Onde cada detalhe conta, nosso trabalho se destaca.
                               </p>
                             </div>
                           </div>

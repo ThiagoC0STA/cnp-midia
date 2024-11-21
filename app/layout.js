@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
   }, []);
 
   return (
-    <html lang="en" className="no-mobile no-touch ">
+    <html lang="pt-BR" className="no-mobile no-touch ">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="./favicon-cnp.svg" />
       </head>
       <body className="appear-animate body">{children}</body>
     </html>

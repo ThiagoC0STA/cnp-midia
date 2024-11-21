@@ -8,8 +8,8 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 const filters = [
   { name: "Recentes", category: "all" },
   { name: "Sites", category: "website" },
-  { name: "Edicão de vídeo", category: "video" },
   { name: "Design", category: "design" },
+  { name: "Edicão de vídeo", category: "video" },
 ];
 export default function Portfolio() {
   const [currentCategory, setCurrentCategory] = useState("all");

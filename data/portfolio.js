@@ -1,6 +1,6 @@
 export const portfolios1 = [
   {
-    id: 1,
+    id: 12,
     className: "work-item mix website design",
     href: "/assets/images/portfolio/masonry/full-project-1.jpg",
     linkClassName: "work-lightbox-link mfp-image",
@@ -51,7 +51,7 @@ export const portfolios1 = [
     ],
   },
   {
-    id: 2,
+    id: 11,
     className: "work-item mix design",
     href: "main-portfolio-single-1.html",
     linkClassName: "work-ext-link",
@@ -142,50 +142,7 @@ export const portfolios1 = [
     ],
   },
   {
-    id: 3,
-    className: "work-item mix video",
-    href: "main-portfolio-single-1.html",
-    linkClassName: "work-ext-link",
-    videoSrc: "/assets/images/work/luxury/luxuryforth.mp4",
-    imgAlt: "Edição de video de luxo",
-    delay: "1s",
-    title: "Edição de video de luxo",
-    description: "Edição de video",
-    longDescription:
-      "Edição de vídeos para marcas de luxo, com foco em qualidade e elegância",
-    date: "Novembro 2023",
-    client: "Diversos",
-    introduction:
-      "Produção audiovisual para campanha de lançamento de nova coleção",
-    videos: [
-      {
-        src: "/assets/images/work/luxury/luxuryone.mp4",
-        alt: "Luxury videos",
-      },
-      {
-        src: "/assets/images/work/luxury/luxurythird.mp4",
-        alt: "Luxury videos",
-      },
-      {
-        src: "/assets/images/work/luxury/luxuryforth.mp4",
-        alt: "Luxury videos",
-      },
-      {
-        src: "/assets/images/work/luxury/luxuryfifth.mp4",
-        alt: "Luxury videos",
-      },
-      {
-        src: "/assets/images/work/luxury/luxurysixth.mp4",
-        alt: "Luxury videos",
-      },
-      {
-        src: "/assets/images/work/luxury/luxuryseventh.mp4",
-        alt: "Luxury videos",
-      },
-    ],
-  },
-  {
-    id: 4,
+    id: 10,
     className: "work-item mix design website",
     href: "main-portfolio-single-1.html",
     linkClassName: "work-ext-link",
@@ -227,7 +184,7 @@ export const portfolios1 = [
     ],
   },
   {
-    id: 5,
+    id: 9,
     className: "work-item mix design",
     href: "main-portfolio-single-1.html",
     linkClassName: "work-ext-link",
@@ -313,49 +270,7 @@ export const portfolios1 = [
     ],
   },
   {
-    id: 6,
-    className: "work-item mix video",
-    href: "/assets/images/portfolio/masonry/full-project-6.jpg",
-    linkClassName: "work-lightbox-link mfp-image",
-    videoSrc: "/assets/images/work/editing/editionone.mp4",
-    imgAlt: "Melhores edições de video",
-    delay: "1s",
-    title: "Melhores edições de video",
-    description: "Edição de video",
-    longDescription:
-      "Compilação dos melhores trabalhos de edição de vídeo realizados",
-    date: "Agosto 2023",
-    client: "Diversos",
-    introduction: "Portfólio de trabalhos selecionados em edição de vídeo",
-    videos: [
-      {
-        src: "/assets/images/work/editing/editionone.mp4",
-        alt: "Compilação Videos",
-      },
-      {
-        src: "/assets/images/work/editing/editionsecond.mp4",
-        alt: "Melhores Momentos",
-      },
-      {
-        src: "/assets/images/work/editing/editionthird.mp4",
-        alt: "Momentos Especiais",
-      },
-      {
-        src: "/assets/images/work/editing/editionfourth.mp4",
-        alt: "Destaques",
-      },
-      {
-        src: "/assets/images/work/editing/editionfifth.mp4",
-        alt: "Melhores Takes",
-      },
-      {
-        src: "/assets/images/work/editing/editionseventh.mp4",
-        alt: "Compilação Final",
-      },
-    ],
-  },
-  {
-    id: 7,
+    id: 8,
     className: "work-item mix design",
     href: "/assets/images/portfolio/masonry/full-project-7.jpg",
     linkClassName: "work-lightbox-link mfp-image",
@@ -396,7 +311,7 @@ export const portfolios1 = [
     ],
   },
   {
-    id: 8,
+    id: 7,
     className: "work-item mix design",
     href: "/assets/images/portfolio/masonry/full-project-8.jpg",
     linkClassName: "work-lightbox-link mfp-image",
@@ -429,7 +344,111 @@ export const portfolios1 = [
     ],
   },
   {
-    id: 9,
+    id: 6,
+    className: "work-item mix website",
+    href: "/assets/images/portfolio/masonry/full-project-8.jpg",
+    linkClassName: "work-lightbox-link mfp-image",
+    imgSrc: "/assets/images/work/metaverse/6.png",
+    imgAlt: "Metaversus site",
+    delay: "1s",
+    title: "Metaversus",
+    description: "Site",
+    longDescription:
+      "Desenvolvimento de site para a Metaversus, empresa focada em realidade virtual",
+    date: "Março 2023",
+    client: "Metaversus VR",
+    introduction: "Website moderno para empresa de realidade virtual",
+    images: [
+      {
+        src: "/assets/images/work/metaverse/1.png",
+        alt: "Homepage Metaversus",
+      },
+      {
+        src: "/assets/images/work/metaverse/2.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/3.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/4.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/5.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/6.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/7.png",
+        alt: "Landing Page VR",
+      },
+      {
+        src: "/assets/images/work/metaverse/8.png",
+        alt: "Landing Page VR",
+      },
+    ],
+  },
+  {
+    id: 5,
+    className: "work-item mix website",
+    href: "/assets/images/portfolio/masonry/full-project-8.jpg",
+    linkClassName: "work-lightbox-link mfp-image",
+    imgSrc: "/assets/images/work/360/2.png",
+    imgAlt: "360 ERP",
+    delay: "1s",
+    title: "360 ERP",
+    description: "Design e site",
+    longDescription:
+      "Desenvolvimento de site e interface para sistema ERP completo",
+    date: "Fevereiro 2023",
+    client: "360 ERP",
+    introduction: "Sistema ERP completo com interface moderna e intuitiva",
+    images: [
+      {
+        src: "/assets/images/work/360/1.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/2.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/3.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/4.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/5.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/6.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/7.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/8.png",
+        alt: "Dashboard ERP",
+      },
+      {
+        src: "/assets/images/work/360/9.png",
+        alt: "Dashboard ERP",
+      },
+    ],
+  },
+  {
+    id: 4,
     className: "work-item mix video",
     href: "/assets/images/portfolio/masonry/full-project-8.jpg",
     linkClassName: "work-lightbox-link mfp-image",
@@ -487,106 +506,87 @@ export const portfolios1 = [
     ],
   },
   {
-    id: 11,
-    className: "work-item mix website",
-    href: "/assets/images/portfolio/masonry/full-project-8.jpg",
-    linkClassName: "work-lightbox-link mfp-image",
-    imgSrc: "/assets/images/work/metaverse/6.png",
-    imgAlt: "Metaversus site",
+    id: 3,
+    className: "work-item mix video",
+    href: "main-portfolio-single-1.html",
+    linkClassName: "work-ext-link",
+    videoSrc: "/assets/images/work/luxury/luxuryforth.mp4",
+    imgAlt: "Edição de video de luxo",
     delay: "1s",
-    title: "Metaversus",
-    description: "Site",
+    title: "Edição de video de luxo",
+    description: "Edição de video",
     longDescription:
-      "Desenvolvimento de site para a Metaversus, empresa focada em realidade virtual",
-    date: "Março 2023",
-    client: "Metaversus VR",
-    introduction: "Website moderno para empresa de realidade virtual",
-    images: [
+      "Edição de vídeos para marcas de luxo, com foco em qualidade e elegância",
+    date: "Novembro 2023",
+    client: "Diversos",
+    introduction:
+      "Produção audiovisual para campanha de lançamento de nova coleção",
+    videos: [
       {
-        src: "/assets/images/work/metaverse/1.png",
-        alt: "Homepage Metaversus",
+        src: "/assets/images/work/luxury/luxuryone.mp4",
+        alt: "Luxury videos",
       },
       {
-        src: "/assets/images/work/metaverse/2.png",
-        alt: "Landing Page VR",
+        src: "/assets/images/work/luxury/luxurythird.mp4",
+        alt: "Luxury videos",
       },
       {
-        src: "/assets/images/work/metaverse/3.png",
-        alt: "Landing Page VR",
+        src: "/assets/images/work/luxury/luxuryforth.mp4",
+        alt: "Luxury videos",
       },
       {
-        src: "/assets/images/work/metaverse/4.png",
-        alt: "Landing Page VR",
+        src: "/assets/images/work/luxury/luxuryfifth.mp4",
+        alt: "Luxury videos",
       },
       {
-        src: "/assets/images/work/metaverse/5.png",
-        alt: "Landing Page VR",
+        src: "/assets/images/work/luxury/luxurysixth.mp4",
+        alt: "Luxury videos",
       },
       {
-        src: "/assets/images/work/metaverse/6.png",
-        alt: "Landing Page VR",
-      },
-      {
-        src: "/assets/images/work/metaverse/7.png",
-        alt: "Landing Page VR",
-      },
-      {
-        src: "/assets/images/work/metaverse/8.png",
-        alt: "Landing Page VR",
+        src: "/assets/images/work/luxury/luxuryseventh.mp4",
+        alt: "Luxury videos",
       },
     ],
   },
   {
-    id: 12,
-    className: "work-item mix website",
-    href: "/assets/images/portfolio/masonry/full-project-8.jpg",
+    id: 2,
+    className: "work-item mix video",
+    href: "/assets/images/portfolio/masonry/full-project-6.jpg",
     linkClassName: "work-lightbox-link mfp-image",
-    imgSrc: "/assets/images/work/360/2.png",
-    imgAlt: "360 ERP",
+    videoSrc: "/assets/images/work/editing/editionone.mp4",
+    imgAlt: "Melhores edições de video",
     delay: "1s",
-    title: "360 ERP",
-    description: "Design e site",
+    title: "Melhores edições de video",
+    description: "Edição de video",
     longDescription:
-      "Desenvolvimento de site e interface para sistema ERP completo",
-    date: "Fevereiro 2023",
-    client: "360 ERP",
-    introduction: "Sistema ERP completo com interface moderna e intuitiva",
-    images: [
+      "Compilação dos melhores trabalhos de edição de vídeo realizados",
+    date: "Agosto 2023",
+    client: "Diversos",
+    introduction: "Portfólio de trabalhos selecionados em edição de vídeo",
+    videos: [
       {
-        src: "/assets/images/work/360/1.png",
-        alt: "Dashboard ERP",
+        src: "/assets/images/work/editing/editionone.mp4",
+        alt: "Compilação Videos",
       },
       {
-        src: "/assets/images/work/360/2.png",
-        alt: "Dashboard ERP",
+        src: "/assets/images/work/editing/editionsecond.mp4",
+        alt: "Melhores Momentos",
       },
       {
-        src: "/assets/images/work/360/3.png",
-        alt: "Dashboard ERP",
+        src: "/assets/images/work/editing/editionthird.mp4",
+        alt: "Momentos Especiais",
       },
       {
-        src: "/assets/images/work/360/4.png",
-        alt: "Dashboard ERP",
+        src: "/assets/images/work/editing/editionfourth.mp4",
+        alt: "Destaques",
       },
       {
-        src: "/assets/images/work/360/5.png",
-        alt: "Dashboard ERP",
+        src: "/assets/images/work/editing/editionfifth.mp4",
+        alt: "Melhores Takes",
       },
       {
-        src: "/assets/images/work/360/6.png",
-        alt: "Dashboard ERP",
-      },
-      {
-        src: "/assets/images/work/360/7.png",
-        alt: "Dashboard ERP",
-      },
-      {
-        src: "/assets/images/work/360/8.png",
-        alt: "Dashboard ERP",
-      },
-      {
-        src: "/assets/images/work/360/9.png",
-        alt: "Dashboard ERP",
+        src: "/assets/images/work/editing/editionseventh.mp4",
+        alt: "Compilação Final",
       },
     ],
   },

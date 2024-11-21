@@ -1,6 +1,27 @@
 "use client";
+import { useEffect, useState } from "react";
 
 export default function Contact2() {
+  const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    const selectedPlanData = localStorage.getItem("selectedPlan");
+    if (selectedPlanData) {
+      try {
+        const { title, period } = JSON.parse(selectedPlanData);
+        const isWebDev = title.includes('Desenvolvimento Web');
+        setMessage(
+          isWebDev
+            ? `Olá, gostaria de contratar o plano ${title}.`
+            : `Olá, gostaria de contratar o plano ${title.replace('Social Media - ', '')} ${period}.`
+        );
+        localStorage.removeItem("selectedPlan");
+      } catch (error) {
+        console.error("Erro ao processar dados do plano:", error);
+      }
+    }
+  }, []);
+
   return (
     <div className="container position-relative">
       <div className="row">
@@ -111,7 +132,8 @@ export default function Contact2() {
                 className="input-lg round form-control"
                 style={{ height: 130 }}
                 placeholder="Digite sua mensagem"
-                defaultValue={""}
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 required
               />
             </div>

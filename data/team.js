@@ -1,8 +1,8 @@
 export const teamMembers = [
   {
     name: "Thiago Costa",
-    role: "Programador | Gestor de trafego | Co-fundador | Designer",
-    image: "/assets/images/team/thiago.jpg",
+    role: "Programador | Gestor de trafego | Co-fundador | UI/UX Designer",
+    image: "/assets/images/team/thiago3.png",
     socials: [
       {
         platform: "Instagram",
@@ -19,7 +19,7 @@ export const teamMembers = [
   {
     name: "Diego Alvarez",
     role: "Designer | Ilustrador | Gestor de trafego | Co-fundador",
-    image: "/assets/images/team/diego2.jpg",
+    image: "/assets/images/team/diego6.png",
     socials: [
       {
         platform: "Instagram",
@@ -36,7 +36,7 @@ export const teamMembers = [
   {
     name: "Gustavo Ribeiro",
     role: "Executivo comercial | Gestão de projetos | Social Media | Ads | Marketing",
-    image: "/assets/images/team/gustavo.jpg",
+    image: "/assets/images/team/gustavo3.png",
     socials: [
       {
         platform: "Instagram",
@@ -52,8 +52,8 @@ export const teamMembers = [
   },
   {
     name: "Kaiky Alvarez",
-    role: "Editor de video | Copywriter",
-    image: "/assets/images/team/kaiky.jpg",
+    role: "Editor de video | Copywriter | Co-fundador",
+    image: "/assets/images/team/kaiky.png",
     socials: [
       {
         platform: "Instagram",
