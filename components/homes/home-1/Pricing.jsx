@@ -6,7 +6,7 @@ import React, { useState } from "react";
 
 export default function Pricing({ items = pricing2 }) {
   const [isYearly, setIsYearly] = useState(false);
-  const hasPrice = items.some(item => item.price !== null);
+  const hasPrice = items.some((item) => item.price !== null);
 
   return (
     <>
@@ -15,18 +15,18 @@ export default function Pricing({ items = pricing2 }) {
         <div className="mb-60 mb-sm-40 text-center">
           <ul className="nav nav-tabs tpl-minimal-tabs animate" role="tablist">
             <li
-              onClick={() => setIsYearly(true)}
-              className="nav-item"
-              role="presentation"
-            >
-              <a className={`nav-link ${isYearly ? "active" : ""} `}>Anual</a>
-            </li>
-            <li
               onClick={() => setIsYearly(false)}
               className="nav-item"
               role="presentation"
             >
               <a className={`nav-link ${!isYearly ? "active" : ""} `}>Mensal</a>
+            </li>
+            <li
+              onClick={() => setIsYearly(true)}
+              className="nav-item"
+              role="presentation"
+            >
+              <a className={`nav-link ${isYearly ? "active" : ""} `}>Anual</a>
             </li>
           </ul>
           <div className="small text-gray mt-10">
@@ -77,16 +77,25 @@ export default function Pricing({ items = pricing2 }) {
                         <>
                           <div className="pricing-num">
                             <sup>R$</sup>
-                            {isYearly
-                              ? Math.round((item.price * 12 * 75) / 100)
-                              : item.price}
+                            {isYearly ? item.priceAnnual : item.price}
                           </div>
                           <div className="pr-per">
-                            {isYearly ? "por ano" : "por mês"}
+                            {isYearly ? (
+                              <>
+                                No plano anual
+                                <div className="pricing-save">
+                                  economia de R${item.price - item.priceAnnual}/mês
+                                </div>
+                              </>
+                            ) : (
+                              "por mês"
+                            )}
                           </div>
                         </>
                       ) : (
-                        <div className="pricing-consult">{item.consultPrice}</div>
+                        <div className="pricing-consult">
+                          {item.consultPrice}
+                        </div>
                       )}
                       <div className="pricing-features">
                         <ul className="pr-list">
@@ -107,10 +116,13 @@ export default function Pricing({ items = pricing2 }) {
                           href="/contact"
                           className="btn btn-mod btn-medium btn-white btn-round btn-hover-anim btn-full"
                           onClick={() => {
-                            localStorage.setItem('selectedPlan', JSON.stringify({
-                              title: item.title,
-                              period: isYearly ? 'anual' : 'mensal'
-                            }));
+                            localStorage.setItem(
+                              "selectedPlan",
+                              JSON.stringify({
+                                title: item.title,
+                                period: isYearly ? "anual" : "mensal",
+                              })
+                            );
                           }}
                         >
                           <span>Contratar {item.title}</span>

@@ -2,6 +2,8 @@ export const pricing = [
   {
     title: "Social Media - Básico",
     price: 2500,
+    priceAnnual: 2300,
+    annualTotal: 27600,
     per: "por mês",
     features: [
       "8 a 12 posts por mês",
@@ -16,6 +18,8 @@ export const pricing = [
   {
     title: "Social Media - Intermediário",
     price: 3000,
+    priceAnnual: 2800,
+    annualTotal: 33600,
     per: "por mês",
     features: [
       "16 a 20 posts por mês",
@@ -31,6 +35,8 @@ export const pricing = [
   {
     title: "Social Media - Avançado",
     price: 5000,
+    priceAnnual: 4700,
+    annualTotal: 56400,
     per: "por mês",
     features: [
       "24 a 30 posts por mês",
@@ -50,9 +56,11 @@ export const pricingTrafego = [
   {
     title: "Tráfego - Básico",
     price: 2500,
+    priceAnnual: 2300,
+    annualTotal: 27600,
     per: "por mês",
     features: [
-      "Gestão até R$10.000",
+      "Gestão até R$5.000",
       "Configuração de campanhas",
       "Otimização diária",
       "Relatório mensal",
@@ -63,9 +71,11 @@ export const pricingTrafego = [
   {
     title: "Tráfego - Intermediário",
     price: 4000,
+    priceAnnual: 3700,
+    annualTotal: 44400,
     per: "por mês",
     features: [
-      "Gestão R$10.000 a R$50.000",
+      "Gestão até R$15.000",
       "Configuração de campanhas",
       "Otimização diária",
       "Relatório semanal",
@@ -77,9 +87,11 @@ export const pricingTrafego = [
   {
     title: "Tráfego - Avançado",
     price: 8000,
+    priceAnnual: 7500,
+    annualTotal: 90000,
     per: "por mês",
     features: [
-      "Gestão acima de R$50.000",
+      "Gestão até R$20.000",
       "Configuração avançada",
       "Otimização diária",
       "Relatório detalhado semanal",
