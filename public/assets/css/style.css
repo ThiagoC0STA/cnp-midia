@@ -6907,11 +6907,17 @@ img.services-image {
   height: 24px;
   font-size: 24px;
 }
+
+
 .alt-features-icon svg {
   display: block;
   width: 1em;
   height: 1em;
   fill: currentColor;
+}
+
+.text-success {
+  margin-top: 20px;
 }
 .alt-features-title {
   margin-bottom: 5px;
@@ -7626,7 +7632,6 @@ img.services-image {
   height: 380px !important;
   object-fit: cover;
 }
-
 
 .work-img-bg {
   position: absolute;
@@ -12744,7 +12749,6 @@ html:not(.mobile) .owl-animate-fadeInDown {
 .works-grid.grid-intro-2 .work-item .work-descr {
   font-size: 16px;
 }
-
 
 @media (max-width: 767.98px) {
   .mt-on-mobile {
