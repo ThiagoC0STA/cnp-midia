@@ -1,14 +1,13 @@
-import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
-export async function POST(req: NextRequest) {
+export async function POST(req) {
   try {
     const body = await req.json();
     const { name, email, message, phone } = body;
 
     if (!name || !email) {
-      return NextResponse.json(
-        { message: "Nome e email são obrigatórios" },
+      return new Response(
+        JSON.stringify({ message: "Nome e email são obrigatórios" }),
         { status: 400 }
       );
     }
@@ -85,7 +84,7 @@ export async function POST(req: NextRequest) {
             </div>
             <div class="field">
               <span class="label">Telefone:</span>
-              ${phone}
+              ${phone || "Não informado"}
             </div>
           </div>
         </body>
@@ -99,14 +98,17 @@ export async function POST(req: NextRequest) {
       html: htmlContent,
     });
 
-    return NextResponse.json(
-      { message: "Email enviado com sucesso" },
+    return new Response(
+      JSON.stringify({ message: "Email enviado com sucesso" }),
       { status: 200 }
     );
   } catch (error) {
     console.error("Erro ao enviar email:", error);
-    return NextResponse.json(
-      { message: "Erro ao enviar email", error: error.message },
+    return new Response(
+      JSON.stringify({
+        message: "Erro ao enviar email",
+        error: error.message,
+      }),
       { status: 500 }
     );
   }
